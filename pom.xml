@@ -17,31 +17,6 @@
     -->
   </modules>
 
-
-<!-- 
-  <distributionManagement>
-    <repository>
-      <id>forge-releases</id>
-      <url>http://repository.sonatype.org:8081/service/local/staging/deploy/maven2</url>
-    </repository>
-    <snapshotRepository>
-      <id>forge-snapshots</id>
-      <url>http://repository.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
--->
-
-  <distributionManagement>
-    <repository>
-      <id>forge-releases</id>
-      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
-    </repository>
-    <snapshotRepository>
-      <id>forge-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-
   <properties>
     <tycho-version>0.11.0</tycho-version>
 
@@ -49,15 +24,6 @@
   </properties>
 
   <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-ssh-external</artifactId>
-        <version>1.0-beta-7</version>
-      </extension>
-    </extensions>
-    <plugins>
-    </plugins>
     <pluginManagement>
       <plugins>
         <plugin>

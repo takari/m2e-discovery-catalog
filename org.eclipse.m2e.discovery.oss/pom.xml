@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <parent>
     <groupId>org.eclipse.m2e</groupId>
     <artifactId>org.eclipse.m2e.discovery-directory</artifactId>
@@ -9,12 +10,25 @@
 
   <artifactId>org.eclipse.m2e.discovery.oss</artifactId>
   <packaging>jar</packaging>
+  
+  <!-- 
+   Here is what happens here
+   
+   1. discovery.publisher.maven-plugin generates p2 repository and catalog jar
+   2. assembly-plugin creates zip file with p2 repository and catalog jar
+   3. zip file is uploaded to special "compressed" nexus url
+   4. nexus cleans desination directory and unzips everything there
+
+   This assumes nexus-pro with nexus-unpack-plugin  
+   -->
 
   <properties>
-    <!-- 
-    <m2e.marketplace.repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2e-marketplace-p2-repo</m2e.marketplace.repositoryUrl>
-    -->
-    <m2e.marketplace.repositoryUrl>http://localhost:8081/nexus/content/sites/xx/m2e-marketplace-p2-repo</m2e.marketplace.repositoryUrl>
+    <catalog.server-url>https://repository.sonatype.org</catalog.server-url>
+    <catalog.repo-name>forge-sites</catalog.repo-name>
+
+    <catalog.repo-path>m2e-discovery-catalog</catalog.repo-path>
+    <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
+    <catalog.repo-url>${catalog.server-url}/nexus/content/sites/${catalog.repo-name}</catalog.repo-url>
   </properties>
 
   <build>
@@ -30,7 +44,7 @@
         </includes>
       </resource>
     </resources>
-     
+
     <plugins>
       <plugin>
         <groupId>org.sonatype.m2e.discovery.publisher</groupId>
@@ -43,13 +57,34 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <p2RepositoryUrl>${m2e.marketplace.repositoryUrl}</p2RepositoryUrl>
+              <p2RepositoryUrl>${catalog.repo-url}</p2RepositoryUrl>
             </configuration>
           </execution>
         </executions>
       </plugin>
+
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptors>
+            <descriptor>src/main/assembly/assembly.xml</descriptor>
+          </descriptors>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
     </plugins>
-    
+
     <pluginManagement>
       <plugins>
         <!-- This plugin's configuration is used in m2e only.-->
@@ -71,7 +106,7 @@
                   </pluginExecutionFilter>
                   <action>
                     <!-- org.sonatype.m2e.discovery.publisher.maven-plugin uses an Equinox instance, so it cannot be executed from within eclipse -->
-                    <ignore/>
+                    <ignore />
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -94,39 +129,29 @@
             <executions>
               <execution>
                 <id>deploy-p2-repository</id>
-                <phase>deploy</phase>
+                <phase>install</phase>
                 <goals>
-                  <goal>upload-files</goal>
+                  <goal>upload-file</goal>
                 </goals>
                 <configuration>
-                  <basedir>${project.build.directory}/p2repository/</basedir>
-                  <includes>
-                    <include>**</include>
-                  </includes>
+                  <file>${project.build.directory}/${project.artifactId}-${project.version}-catalog.zip</file>
                   <serverId>forge-releases</serverId>
-                  <repositoryUrl>${m2e.marketplace.repositoryUrl}</repositoryUrl>
-                </configuration>
-              </execution>
-
-              <execution>
-                <id>deploy-discovery-catalog</id>
-                <phase>deploy</phase>
-                <goals>
-                  <goal>upload-files</goal>
-                </goals>
-                <configuration>
-                  <basedir>${project.build.directory}</basedir>
-                  <includes>
-                    <include>org.eclipse.m2e.discovery.oss-1.0.0-SNAPSHOT.jar</include>
-                  </includes>
-                  <serverId>forge-releases</serverId>
-                  <repositoryUrl>${m2e.marketplace.repositoryUrl}</repositoryUrl>
+                  <repositoryUrl>${catalog.repo-url-compressed}</repositoryUrl>
+                  <repositoryPath>${catalog.repo-path}</repositoryPath>
                 </configuration>
               </execution>
             </executions>
           </plugin>
         </plugins>
       </build>
+    </profile>
+    
+    <profile>
+      <id>local-nexus</id>
+      <properties>
+        <catalog.server-url>http://localhost:8081/nexus</catalog.server-url>
+        <catalog.repo-name>xx</catalog.repo-name>
+      </properties>
     </profile>
   </profiles>
 </project>
