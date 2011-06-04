@@ -9,10 +9,16 @@
 
   <modules>
     <module>org.eclipse.m2e.discovery.oss</module>
+    
+    <!--
+    disabled because latest p2 discovery and/or ecf do not allow file:// discovery catalog urls used by the test.
+    
     <module>org.eclipse.m2e.discovery-directory.tests</module>
+    -->
   </modules>
 
 
+<!-- 
   <distributionManagement>
     <repository>
       <id>forge-releases</id>
@@ -23,14 +29,23 @@
       <url>http://repository.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+-->
+
+  <distributionManagement>
+    <repository>
+      <id>forge-releases</id>
+      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
+    </repository>
+    <snapshotRepository>
+      <id>forge-snapshots</id>
+      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <properties>
     <tycho-version>0.11.0</tycho-version>
-    
+
     <m2e-core.url>http://download.eclipse.org/technology/m2e/milestones/1.0</m2e-core.url>
-    
-    <!-- placeholder so we can define macosx-specific options via a profile  -->
-    <tycho.test.jvmArgs></tycho.test.jvmArgs>
   </properties>
 
   <build>
@@ -95,22 +110,5 @@
       </plugins>
     </pluginManagement>
   </build>
-
-
-
-  <profiles>
-    <profile>
-      <id>osx</id>
-      <activation>
-        <property>
-          <name>java.vendor.url</name>
-          <value>http://www.apple.com/</value>
-        </property>
-      </activation>
-      <properties>
-        <tycho.test.jvmArgs>-Xmx800m -XX:MaxPermSize=256m -Dosgi.ws=cocoa -XstartOnFirstThread</tycho.test.jvmArgs>
-      </properties>
-    </profile>
-  </profiles>
 
 </project>

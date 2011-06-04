@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <parent>
-    <artifactId>org.eclipse.m2e.discovery-parent</artifactId>
     <groupId>org.eclipse.m2e</groupId>
+    <artifactId>org.eclipse.m2e.discovery-directory</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../org.eclipse.m2e.discovery-parent/pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -12,10 +11,10 @@
   <packaging>jar</packaging>
 
   <properties>
-    <m2e.marketplace.repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2e-marketplace-p2-repo</m2e.marketplace.repositoryUrl>
     <!-- 
-    <m2e.marketplace.repositoryUrl>http://localhost:8081/nexus/content/sites/xx/m2e-marketplace-p2-repo</m2e.marketplace.repositoryUrl>
+    <m2e.marketplace.repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2e-marketplace-p2-repo</m2e.marketplace.repositoryUrl>
     -->
+    <m2e.marketplace.repositoryUrl>http://localhost:8081/nexus/content/sites/xx/m2e-marketplace-p2-repo</m2e.marketplace.repositoryUrl>
   </properties>
 
   <build>
@@ -94,7 +93,7 @@
             <version>0.0.1</version>
             <executions>
               <execution>
-                <id>publish-site</id>
+                <id>deploy-p2-repository</id>
                 <phase>deploy</phase>
                 <goals>
                   <goal>upload-files</goal>
@@ -108,25 +107,20 @@
                   <repositoryUrl>${m2e.marketplace.repositoryUrl}</repositoryUrl>
                 </configuration>
               </execution>
-            </executions>
-          </plugin>
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>wagon-maven-plugin</artifactId>
-            <version>1.0-beta-4-SNAPSHOT</version>
-            <executions>
+
               <execution>
-                <id>upload-file</id>
+                <id>deploy-discovery-catalog</id>
                 <phase>deploy</phase>
                 <goals>
-                  <goal>upload</goal>
+                  <goal>upload-files</goal>
                 </goals>
                 <configuration>
-                  <fromDir>${project.build.directory}</fromDir>
-                  <serverId>download.eclipse.org</serverId>
-                  <includes>org.eclipse.m2e.discovery.oss-1.0.0-SNAPSHOT.jar</includes>
-                  <url>scpexe://dev.eclipse.org/</url>
-                  <toDir>${discovery.folder}/${project.artifactId}/</toDir>
+                  <basedir>${project.build.directory}</basedir>
+                  <includes>
+                    <include>org.eclipse.m2e.discovery.oss-1.0.0-SNAPSHOT.jar</include>
+                  </includes>
+                  <serverId>forge-releases</serverId>
+                  <repositoryUrl>${m2e.marketplace.repositoryUrl}</repositoryUrl>
                 </configuration>
               </execution>
             </executions>
