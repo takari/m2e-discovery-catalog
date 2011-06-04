@@ -28,7 +28,8 @@
 
     <catalog.repo-path>m2e-discovery-catalog</catalog.repo-path>
     <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
-    <catalog.repo-url>${catalog.server-url}/nexus/content/sites/${catalog.repo-name}</catalog.repo-url>
+    <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
+ 
   </properties>
 
   <build>
