@@ -57,7 +57,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <p2RepositoryUrl>${catalog.repo-url}</p2RepositoryUrl>
+              <p2RepositoryUrl>${catalog.repo-url}/${catalog.repo-path}</p2RepositoryUrl>
             </configuration>
           </execution>
         </executions>
