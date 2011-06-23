@@ -184,9 +184,6 @@
         <summary>plexus-annotations</summary>
       </overview>
     </catalogItem>
-<!--
-    disabled until dependency on pomproperties is removed and new build is provided
-     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>m2e-wtp</description>
@@ -197,7 +194,7 @@
       <name>m2e-wtp</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-wtp/0.13.0/S/0.13.0.20110622-2130</repositoryUrl>
+        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-wtp/0.13.0/S/0.13.0.20110623-0455</repositoryUrl>
         <iuId>org.maven.ide.eclipse.wtp.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.maven.ide.eclipse.wtp</iuId>
@@ -208,7 +205,6 @@
         <url>https://github.com/sonatype/m2eclipse-wtp</url>
       </overview>
     </catalogItem>
- -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for EGit</description>
