@@ -184,6 +184,12 @@
         <summary>plexus-annotations</summary>
       </overview>
     </catalogItem>
+
+
+<!-- 
+disabled because m2e-wtp provides primary mapping for maven-jar-plugin, which is not wtp-specific.
+because of this, m2e-wtp is installed by default for all projects that use maven-jar-plugin
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>m2e-wtp</description>
@@ -205,6 +211,9 @@
         <url>https://github.com/sonatype/m2eclipse-wtp</url>
       </overview>
     </catalogItem>
+ -->    
+    
+    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for EGit</description>
