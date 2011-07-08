@@ -242,7 +242,7 @@ because of this, m2e-wtp is installed by default for all projects that use maven
       <name>m2e-cvs</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-cvs/0.13.0/N/0.13.0.201103071338/</repositoryUrl>
+        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-cvs/0.13.0/N/0.13.0.201106260822/</repositoryUrl>
         <iuId>org.sonatype.m2e.cvs.feature.feature.group</iuId>
       </p2>
       <overview>
