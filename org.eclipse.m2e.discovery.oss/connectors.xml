@@ -343,16 +343,13 @@ because of this, m2e-wtp is installed by default for all projects that use maven
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=350909 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>This plugin extends m2e and provides a lifecycle configuration for the Axis
-Tools Maven plugin (http://mojo.codehaus.org/axistools-maven-plugin/). It
-allows for automatically generating Java source files from WSDL sources and
-adds the generated source code folder to the Java build path.
+      <description>This plugin extends m2e and provides a lifecycle configuration for the Axis Tools Maven plugin (http://mojo.codehaus.org/axistools-maven-plugin/). It allows for automatically generating Java source files from WSDL sources and adds the generated source code folder to the Java build path.
       </description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.de.theit.m2e.axistools</id>
       <kind>lifecycles</kind>
       <license>ASL</license>
-      <name>de.theit.m2e.axistools</name>
+      <name>Axis Tools m2e</name>
       <provider>Thorsten Heit</provider>
       <p2>
         <repositoryUrl>http://theit.github.com/m2e-lifecycle-axistools</repositoryUrl>
@@ -363,8 +360,8 @@ adds the generated source code folder to the Java build path.
         </lifecycleMappingIU>
       </p2>
       <overview>
-        <summary>m2e lifecycle configuration for org.codehaus.mojo:axistools-maven-plugin:wsdl2java.</summary>
-        <url>https://github.com/bimargulies/m2e-code-quality</url>
+        <summary>m2e support for the axistools-maven-plugin.</summary>
+        <url>https://github.com/theit/m2e-lifecycle-axistools</url>
       </overview>
     </catalogItem>
 
