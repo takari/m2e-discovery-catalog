@@ -185,11 +185,7 @@
       </overview>
     </catalogItem>
 
-
-<!-- 
-disabled because m2e-wtp provides primary mapping for maven-jar-plugin, which is not wtp-specific.
-because of this, m2e-wtp is installed by default for all projects that use maven-jar-plugin
-
+    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>m2e-wtp</description>
@@ -198,21 +194,19 @@ because of this, m2e-wtp is installed by default for all projects that use maven
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>m2e-wtp</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>JBoss by Red Hat</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-wtp/0.13.0/S/0.13.0.20110623-0455</repositoryUrl>
+        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/</repositoryUrl>
         <iuId>org.maven.ide.eclipse.wtp.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.maven.ide.eclipse.wtp</iuId>
         </lifecycleMappingIU>
       </p2>
       <overview>
-        <summary>m2e-wtp</summary>
+        <summary>Maven Integration for WTP</summary>
         <url>https://github.com/sonatype/m2eclipse-wtp</url>
       </overview>
     </catalogItem>
- -->    
-    
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
@@ -498,5 +492,57 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
+    <!-- jaxb2 :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=352056 -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <description>m2e connector for Jaxb2 Maven plugins,
+        http://mojo.codehaus.org/jaxb2-maven-plugin and
+        http://java.net/projects/maven-jaxb2-plugin/pages/Home
+      </description>
+      <groupId>lifecycles</groupId>
+  
+      <id>org.eclipse.m2e.discovery.lifecycles.org.bitstrings.eclipse.m2e.connectors.jaxb2</id>
+      <kind>lifecycles</kind>
+      <license>EPL v1.0</license>
+      <name>m2e connector for org.codehaus.mojo:jaxb2-maven-plugin and org.jvnet.jaxb2.maven2:maven-jaxb2-plugin</name>
+      <provider>bitstrings.org - Pino Silvaggio</provider>
+      <p2>
+        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/releases</repositoryUrl>
+        <iuId>org.bitstrings.eclipse.m2e.connectors.jaxb2.feature.group</iuId>
+        <iuVersion>1.0.3.201107311209</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.bitstrings.eclipse.m2e.connectors.jaxb2</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e connector for org.codehaus.mojo:jaxb2-maven-plugin and org.jvnet.jaxb2.maven2:maven-jaxb2-plugin</summary>
+        <url>http://bitstrings.github.com/m2e-connectors-p2</url>
+      </overview>
+    </catalogItem>
+    
+    <!-- xmlbeans :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=352056 -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <description>m2e connector for XmlBeans Maven plugin, http://mojo.codehaus.org/xmlbeans-maven-plugin</description>
+      <groupId>lifecycles</groupId>
+  
+      <id>org.eclipse.m2e.discovery.lifecycles.org.bitstrings.eclipse.m2e.connectors.xmlbeans</id>
+      <kind>lifecycles</kind>
+      <license>EPL v1.0</license>
+      <name>m2e connector for org.codehaus.mojo:xmlbeans-maven-plugin</name>
+      <provider>bitstrings.org - Pino Silvaggio</provider>
+      <p2>
+        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/releases</repositoryUrl>
+        <iuId>org.bitstrings.eclipse.m2e.connectors.xmlbeans.feature.group</iuId>
+        <iuVersion>1.0.3.201107311212</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.bitstrings.eclipse.m2e.connectors.xmlbeans</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e connector for org.codehaus.mojo:xmlbeans-maven-plugin</summary>
+        <url>http://bitstrings.github.com/m2e-connectors-p2</url>
+      </overview>
+    </catalogItem>
   </catalogItems>
 </catalog>
