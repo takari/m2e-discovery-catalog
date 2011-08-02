@@ -554,7 +554,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>Android Connector</name>
-      <provider></provider>
+      <provider>eclipselabs.org</provider>
       <p2>
         <repositoryUrl>http://rgladwell.github.com/m2e-android/updates/</repositoryUrl>
         <iuId>me.gladwell.eclipse.m2e.android.feature.feature.group</iuId>
