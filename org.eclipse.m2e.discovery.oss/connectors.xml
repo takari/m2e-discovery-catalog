@@ -544,5 +544,43 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://bitstrings.github.com/m2e-connectors-p2</url>
       </overview>
     </catalogItem>
+
+    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353529 -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <description>Android Configurator for M2E Maven Integration for Eclipse</description>
+      <groupId>m2e-android</groupId>
+      <id>me.gladwell.eclipse.m2e.android</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>Android Connector</name>
+      <provider></provider>
+      <p2>
+        <repositoryUrl>http://rgladwell.github.com/m2e-android/updates/</repositoryUrl>
+        <iuId>me.gladwell.eclipse.m2e.android.feature.feature.group</iuId>
+        <iuVersion>0.3.0</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>me.gladwell.eclipse.m2e.android</iuId>
+        </lifecycleMappingIU>
+    
+        <rootIU>
+          <iuId>com.android.ide.eclipse.adt.feature.group</iuId>
+        </rootIU>
+        <rootIU>
+          <iuId>com.android.ide.eclipse.ddms.feature.group</iuId>
+        </rootIU>
+        <rootIU>
+          <iuId>com.android.ide.eclipse.ddms.feature.group</iuId>
+        </rootIU>
+        <rootIU>
+          <iuId>com.android.ide.eclipse.traceview.feature.group</iuId>
+        </rootIU>
+      </p2>
+      <overview>
+        <summary>Android Configurator for M2E Maven Integration for Eclipse</summary>
+        <url>http://rgladwell.github.com/m2e-android</url>
+      </overview>
+    </catalogItem>
+
   </catalogItems>
 </catalog>
