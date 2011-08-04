@@ -567,7 +567,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>Android Configurator for M2E Maven Integration for Eclipse</description>
-      <groupId>m2e-android</groupId>
+      <groupId>lifecycles</groupId>
       <id>me.gladwell.eclipse.m2e.android</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
