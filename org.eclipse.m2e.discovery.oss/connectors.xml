@@ -120,30 +120,26 @@
       </overview>
     </catalogItem>
 
-<!-- 
-    disabled because mavenarchiver.pomproperties conflicts with m2e-wtp
-    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>mavenarchiver pomproperties</description>
+      <description>mavenarchiver basic support</description>
       <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.mavenarchiver.pomproperties</id>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.mavenarchiver</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>mavenarchiver pomproperties</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.13.0/S/0.13.0.20110622-1538/</repositoryUrl>
-        <iuId>org.sonatype.m2e.mavenarchiver.pomproperties.feature.feature.group</iuId>
+        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201108020602/</repositoryUrl>
+        <iuId>org.sonatype.m2e.mavenarchiver.feature.feature.group</iuId>
         <lifecycleMappingIU>
-          <iuId>org.sonatype.m2e.mavenarchiver.pomproperties</iuId>
+          <iuId>org.sonatype.m2e.mavenarchiver</iuId>
         </lifecycleMappingIU>
       </p2>
       <overview>
-        <summary>mavenarchiver pomproperties</summary>
+        <summary>mavenarchiver basic support</summary>
       </overview>
     </catalogItem>
- -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>modello</description>
