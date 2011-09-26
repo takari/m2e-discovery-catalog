@@ -214,7 +214,7 @@
       <name>m2e-egit</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-egit/0.13.0/S/0.13.0.20110628-2018</repositoryUrl>
+        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-egit/0.14.0/N/0.14.0.201109221607/</repositoryUrl>
         <iuId>org.sonatype.m2e.egit.feature.feature.group</iuId>
       </p2>
       <overview>
