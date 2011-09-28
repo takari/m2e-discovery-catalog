@@ -1,22 +1,17 @@
 <assembly>
-  <id>catalog</id>
+  <id>assembly</id>
   <formats>
     <format>zip</format>
   </formats>
   <includeBaseDirectory>false</includeBaseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/p2repository</directory>
-      <outputDirectory>/</outputDirectory>
-    </fileSet>
-    <fileSet>
       <directory>${project.build.directory}</directory>
       <includes>
-        <include>${project.artifactId}-${project.version}.jar</include>
+        <include>${project.artifactId}-catalog.jar</include>
+        <include>${project.artifactId}-catalog-1.1.jar</include>
       </includes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
   </fileSets>
-
 </assembly>
-

@@ -59,6 +59,7 @@
  -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>Tycho Configurator bridges tycho based projects and PDE</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.tycho</id>
@@ -81,6 +82,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>antlr</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.antlr</id>
@@ -101,6 +103,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>buildhelper</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.buildhelper</id>
@@ -122,6 +125,7 @@
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>mavenarchiver basic support</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.mavenarchiver</id>
@@ -142,6 +146,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>modello</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.modello</id>
@@ -162,6 +167,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>plexus-annotations</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.plexus-annotations</id>

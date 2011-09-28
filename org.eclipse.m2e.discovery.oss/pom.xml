@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>org.eclipse.m2e.discovery.oss</artifactId>
-  <packaging>jar</packaging>
+  <packaging>null</packaging>
   
   <!-- 
    Here is what happens here
@@ -29,7 +29,7 @@
     <catalog.repo-path>m2e-discovery-catalog</catalog.repo-path>
     <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
     <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
- 
+
   </properties>
 
   <build>
@@ -48,28 +48,43 @@
 
     <plugins>
       <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>maven-tinkerbell-plugin</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <extensions>true</extensions>
+      </plugin>
+
+      <plugin>
         <groupId>org.sonatype.m2e.discovery.publisher</groupId>
         <artifactId>org.sonatype.m2e.discovery.publisher.maven-plugin</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <executions>
           <execution>
-            <id>standard</id>
+            <id>catalog</id>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>catalog-1.1</id>
             <goals>
               <goal>generate</goal>
             </goals>
             <configuration>
-              <p2RepositoryUrl>${catalog.repo-url}/${catalog.repo-path}</p2RepositoryUrl>
+              <outputdir>${project.build.directory}/catalog-1.1</outputdir>
+              <m2eversion>1.1</m2eversion>
             </configuration>
           </execution>
         </executions>
       </plugin>
-
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
           <descriptors>
+            <descriptor>src/main/assembly/catalog.xml</descriptor>
+            <descriptor>src/main/assembly/catalog-1.1.xml</descriptor>
             <descriptor>src/main/assembly/assembly.xml</descriptor>
           </descriptors>
         </configuration>
@@ -80,10 +95,13 @@
             <goals>
               <goal>single</goal>
             </goals>
+            <configuration>
+              <finalName>${project.artifactId}</finalName>
+              <appendAssemblyId>true</appendAssemblyId>
+            </configuration>
           </execution>
         </executions>
       </plugin>
-
     </plugins>
 
     <pluginManagement>
@@ -135,7 +153,7 @@
                   <goal>upload-file</goal>
                 </goals>
                 <configuration>
-                  <file>${project.build.directory}/${project.artifactId}-${project.version}-catalog.zip</file>
+                  <file>${project.artifactId}-assembly.zip</file>
                   <serverId>forge-releases</serverId>
                   <repositoryUrl>${catalog.repo-url-compressed}</repositoryUrl>
                   <repositoryPath>${catalog.repo-path}</repositoryPath>
@@ -146,7 +164,7 @@
         </plugins>
       </build>
     </profile>
-    
+
     <profile>
       <id>local-nexus</id>
       <properties>
