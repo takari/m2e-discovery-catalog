@@ -68,7 +68,7 @@
       <name>Tycho Configurator</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201109270448</repositoryUrl>
+        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201109301325</repositoryUrl>
         <iuId>org.sonatype.tycho.m2e.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.tycho.m2e</iuId>
@@ -211,6 +211,7 @@
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>m2e-wtp</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp</id>
@@ -221,6 +222,7 @@
       <p2>
         <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/</repositoryUrl>
         <iuId>org.maven.ide.eclipse.wtp.feature.feature.group</iuId>
+        <iuVersion>0.14.0.20110928-2045</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.maven.ide.eclipse.wtp</iuId>
         </lifecycleMappingIU>
@@ -230,7 +232,7 @@
         <url>https://github.com/sonatype/m2eclipse-wtp</url>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for EGit</description>
