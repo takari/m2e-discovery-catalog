@@ -235,6 +235,7 @@
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>Maven SCM Handler for EGit</description>
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit</id>
@@ -243,7 +244,7 @@
       <name>m2e-egit</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-egit/0.14.0/N/0.14.0.201109221607/</repositoryUrl>
+        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-egit/0.14.0/N/0.14.0.201110251725/</repositoryUrl>
         <iuId>org.sonatype.m2e.egit.feature.feature.group</iuId>
       </p2>
       <overview>
@@ -588,7 +589,10 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
-    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353529 -->
+    <!-- 
+      initial https://bugs.eclipse.org/bugs/show_bug.cgi?id=353529
+      version 0.4.0 https://bugs.eclipse.org/bugs/show_bug.cgi?id=363574 
+    -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>Android Configurator for M2E Maven Integration for Eclipse</description>
@@ -601,7 +605,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://rgladwell.github.com/m2e-android/updates/</repositoryUrl>
         <iuId>me.gladwell.eclipse.m2e.android.feature.feature.group</iuId>
-        <iuVersion>0.3.0</iuVersion>
+        <iuVersion>0.4.0</iuVersion>
         <lifecycleMappingIU>
           <iuId>me.gladwell.eclipse.m2e.android</iuId>
         </lifecycleMappingIU>
@@ -648,6 +652,30 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://docs.codehaus.org/display/GROOVY/Groovy-Eclipse+compiler+plugin+for+Maven</url>
       </overview>
     </catalogItem>
-    
+
+    <!-- 
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <description>AspectJ m2e configurator</description>
+      <groupId>lifecycles</groupId>
+      <id>org.maven.ide.eclipse.ajdt</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>AspectJ</name>
+      <provider>SpringSource</provider>
+      <p2>
+        <repositoryUrl>http://dist.springsource.org/release/AJDT/configurator/</repositoryUrl>
+        <iuId>org.maven.ide.eclipse.ajdt.feature.feature.group</iuId>
+        <iuVersion>0.13.0.201107281640</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.maven.ide.eclipse.ajdt</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Maven Integration for AspectJ Development Tools</summary>
+        <url>http://eclipse.org/ajdt</url>
+      </overview>
+    </catalogItem>
+     -->
   </catalogItems>
 </catalog>
