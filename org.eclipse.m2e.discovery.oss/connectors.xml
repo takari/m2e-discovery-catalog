@@ -654,7 +654,6 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
-    <!-- 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>AspectJ m2e configurator</description>
@@ -665,7 +664,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <name>AspectJ</name>
       <provider>SpringSource</provider>
       <p2>
-        <repositoryUrl>http://dist.springsource.org/release/AJDT/configurator/</repositoryUrl>
+        <repositoryUrl>http://dist.springsource.org/release/AJDT/composite/</repositoryUrl>
         <iuId>org.maven.ide.eclipse.ajdt.feature.feature.group</iuId>
         <iuVersion>0.13.0.201107281640</iuVersion>
         <lifecycleMappingIU>
@@ -677,6 +676,5 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://eclipse.org/ajdt</url>
       </overview>
     </catalogItem>
-     -->
   </catalogItems>
 </catalog>
