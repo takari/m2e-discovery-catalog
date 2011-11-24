@@ -381,6 +381,7 @@
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=350909 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
       <description>This plugin extends m2e and provides a lifecycle configuration for the Axis Tools Maven plugin (http://mojo.codehaus.org/axistools-maven-plugin/). It allows for automatically generating Java source files from WSDL sources and adds the generated source code folder to the Java build path.
       </description>
       <groupId>lifecycles</groupId>
@@ -392,7 +393,7 @@
       <p2>
         <repositoryUrl>http://theit.github.com/m2e-lifecycle-axistools</repositoryUrl>
         <iuId>de.theit.m2e.axistools.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201107010810</iuVersion>
+        <iuVersion>1.1.0.201111221420</iuVersion>
         <lifecycleMappingIU>
           <iuId>de.theit.m2e.axistools</iuId>
         </lifecycleMappingIU>
