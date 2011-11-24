@@ -676,5 +676,32 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://eclipse.org/ajdt</url>
       </overview>
     </catalogItem>
+
+    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=364457  -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <description>Handles jrebel-maven-plugin lifecycle for generating
+        rebel.xml
+      </description>
+      <groupId>lifecycles</groupId>
+      <id>org.zeroturnaround.eclipse.m2e</id>
+      <kind>lifecycles</kind>
+      <license>License Agreement for JRebel Software</license>
+      <name>JRebel m2eclipse Integration</name>
+      <provider>ZeroTurnaround</provider>
+      <p2>
+        <repositoryUrl>http://www.zeroturnaround.com/update-site</repositoryUrl>
+        <iuId>org.zeroturnaround.eclipse.m2e.feature.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>org.zeroturnaround.eclipse.m2e</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Handles jrebel-maven-plugin lifecycle for generating
+          rebel.xml
+        </summary>
+        <url>http://zeroturnaround.com/jrebel/configuration/maven/</url>
+      </overview>
+    </catalogItem>
   </catalogItems>
 </catalog>
