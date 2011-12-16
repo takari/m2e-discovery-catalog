@@ -68,7 +68,7 @@
       <name>Tycho Configurator</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201110151902</repositoryUrl>
+        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201112050222/</repositoryUrl>
         <iuId>org.sonatype.tycho.m2e.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.tycho.m2e</iuId>
@@ -537,7 +537,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
-    <!-- dependencypath :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=364780 -->
+    <!-- dependencypath :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=365958 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -552,7 +552,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/milestones</repositoryUrl>
         <iuId>org.bitstrings.eclipse.m2e.connectors.dependencypath.features.feature.group</iuId>
-        <iuVersion>2.0.0.201111250141</iuVersion>
+        <iuVersion>2.0.0.201112072018</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.bitstrings.eclipse.m2e.connectors.dependencypath</iuId>
         </lifecycleMappingIU>
@@ -563,7 +563,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
-    <!-- jaxb2 :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=364780 -->
+    <!-- jaxb2 :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=365958 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -581,7 +581,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/milestones</repositoryUrl>
         <iuId>org.bitstrings.eclipse.m2e.connectors.jaxb2.features.feature.group</iuId>
-        <iuVersion>2.0.0.201111250141</iuVersion>
+        <iuVersion>2.0.0.201112072018</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.bitstrings.eclipse.m2e.connectors.jaxb2</iuId>
         </lifecycleMappingIU>
@@ -592,7 +592,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
     
-    <!-- xmlbeans :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=364780 -->
+    <!-- xmlbeans :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=365958 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -607,7 +607,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/milestones</repositoryUrl>
         <iuId>org.bitstrings.eclipse.m2e.connectors.xmlbeans.features.feature.group</iuId>
-        <iuVersion>2.0.0.201111250141</iuVersion>
+        <iuVersion>2.0.0.201112072018</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.bitstrings.eclipse.m2e.connectors.xmlbeans</iuId>
         </lifecycleMappingIU>
