@@ -732,5 +732,30 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://zeroturnaround.com/jrebel/configuration/maven/</url>
       </overview>
     </catalogItem>
+
+    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=366745 -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
+      <description>m2e connector for JiBX Maven plugin, http://jibx.org</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecycles.org.jibx.m2e.plugin</id>
+      <kind>lifecycles</kind>
+      <license>JiBX Open Source - http://jibx.sourceforge.net/jibx-license.html</license>
+      <name>m2e connector for org.jibx.jibx-maven-plugin</name>
+      <provider>jibx.org - Don Corley</provider>
+      <p2>
+        <repositoryUrl>http://jibx.sourceforge.net/eclipse/</repositoryUrl>
+        <iuId>org.jibx.m2e.feature.feature.group</iuId>
+        <iuVersion>1.2.3.201107241325</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.jibx.m2e.plugin</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e connector for org.jibx.jibx-maven-plugin</summary>
+        <url>http://jibx.org</url>
+      </overview>
+    </catalogItem>
   </catalogItems>
 </catalog>
