@@ -757,5 +757,30 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://jibx.org</url>
       </overview>
     </catalogItem>
+
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
+      <description>m2e connector for maven-wro4j-plugin</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wro4j</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e connector for maven-wro4j-plugin</name>
+      <provider>JBoss by Red Hat</provider>
+      <p2>
+        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-wro4j/</repositoryUrl>
+        <iuId>org.jboss.tools.m2e.wro4j.feature.feature.group</iuId>
+        <iuVersion>1.0.0.20120302-0935</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.jboss.tools.m2e.wro4j.core</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Adds support for maven-wro4j-plugin</summary>
+        <url>https://github.com/jbosstools/m2e-wro4j</url>
+      </overview>
+    </catalogItem>
+
   </catalogItems>
 </catalog>
