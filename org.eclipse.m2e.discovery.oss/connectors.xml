@@ -806,6 +806,29 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1</m2e-versions>
+      <description>M2E connector for the Eclipse JDT Compiler</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-jdt-compiler</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e-jdt-compiler</name>
+      <provider>JBoss by Red Hat</provider>
+      <p2>
+        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/</repositoryUrl>
+        <iuId>org.jboss.tools.m2e.jdt.feature.feature.group</iuId>
+        <iuVersion>1.0.0.20120208-1640</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.jboss.tools.m2e.jdt.core</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>This m2e connector adds support for maven-compiler-plugin with compilerId=eclipse and compilerId=jdt (i.e. Eclipse JDT compiler)</summary>
+        <url>https://github.com/jbosstools/m2e-jdt-compiler</url>
+      </overview>
+    </catalogItem>
 
   </catalogItems>
 </catalog>
