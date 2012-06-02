@@ -22,16 +22,6 @@
    This assumes nexus-pro with nexus-unpack-plugin  
    -->
 
-  <properties>
-    <catalog.server-url>https://repository.sonatype.org</catalog.server-url>
-    <catalog.repo-name>forge-sites</catalog.repo-name>
-
-    <catalog.repo-path>m2e-discovery-catalog</catalog.repo-path>
-    <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
-    <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
-
-  </properties>
-
   <build>
     <resources>
       <resource>
@@ -102,6 +92,26 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>maven-upload-plugin</artifactId>
+        <version>0.0.1</version>
+        <executions>
+          <execution>
+            <id>deploy-p2-repository</id>
+            <phase>install</phase>
+            <goals>
+              <goal>upload-file</goal>
+            </goals>
+            <configuration>
+              <file>${project.build.directory}/${project.artifactId}-assembly.zip</file>
+              <serverId>${catalog.repo-name}</serverId>
+              <repositoryUrl>${catalog.repo-url-compressed}</repositoryUrl>
+              <repositoryPath>/</repositoryPath>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
 
     <pluginManagement>
@@ -138,38 +148,35 @@
 
   <profiles>
     <profile>
-      <id>publish-site</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.sonatype.plugins</groupId>
-            <artifactId>maven-upload-plugin</artifactId>
-            <version>0.0.1</version>
-            <executions>
-              <execution>
-                <id>deploy-p2-repository</id>
-                <phase>install</phase>
-                <goals>
-                  <goal>upload-file</goal>
-                </goals>
-                <configuration>
-                  <file>${project.build.directory}/${project.artifactId}-assembly.zip</file>
-                  <serverId>forge-releases</serverId>
-                  <repositoryUrl>${catalog.repo-url-compressed}</repositoryUrl>
-                  <repositoryPath>${catalog.repo-path}</repositoryPath>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
+      <id>catalog-stage</id>
+      <properties>
+        <catalog.server-url>http://repository.tesla.io:8081/nexus</catalog.server-url>      
+        <!-- Name of the hosted repository -->
+        <catalog.repo-name>m2e.discovery.stage</catalog.repo-name>
+        <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
+        <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
+      </properties>
     </profile>
 
     <profile>
-      <id>local-nexus</id>
+      <id>catalog-release</id>
+      <properties>
+        <catalog.server-url>http://repository.tesla.io:8081/nexus</catalog.server-url>      
+        <!-- Name of the hosted repository -->
+        <catalog.repo-name>m2e.discovery.release</catalog.repo-name>
+        <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
+        <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>catalog-nexus</id>
       <properties>
         <catalog.server-url>http://localhost:8081/nexus</catalog.server-url>
-        <catalog.repo-name>xx</catalog.repo-name>
+        <!-- Name of the hosted repository -->
+        <catalog.repo-name>m2e.discovery.stage</catalog.repo-name>
+        <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
+        <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
       </properties>
     </profile>
   </profiles>
