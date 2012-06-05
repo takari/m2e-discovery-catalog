@@ -785,7 +785,8 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
-      <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit</description>
+      <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
+      </description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apt</id>
       <kind>lifecycles</kind>
@@ -795,13 +796,13 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/</repositoryUrl>
         <iuId>org.jboss.tools.maven.apt.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201205021739</iuVersion>
+        <iuVersion>1.0.0.201206052025</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.jboss.tools.maven.apt.core</iuId>
         </lifecycleMappingIU>
       </p2>
       <overview>
-        <summary>Adds support for automatic Annotation Processing configuration from maven-compiler-plugin and maven-processor-plugin</summary>
+        <summary>Adds support for automatic Annotation Processing configuration from maven-compiler-plugin and maven-processor-plugin. Annotation Processing is disabled by default in the workspace, it can be enabled in Window > Preferences > Maven > Annotation Processing</summary>
         <url>https://github.com/jbosstools/m2e-apt</url>
       </overview>
     </catalogItem>
