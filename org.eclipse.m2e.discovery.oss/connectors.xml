@@ -338,7 +338,7 @@
       <name>Checkstyle M2E</name>
       <provider>Benson Margulies etc @ m2e-code-quality.github.com</provider>
       <p2>
-        <repositoryUrl>http://me2-code-quality.github.com/m2e-code-quality/site/1.0/</repositoryUrl>
+        <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/1.0/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.checkstyle.feature.feature.group</iuId>
         <iuVersion>1.0.0.201209141747</iuVersion>
         <lifecycleMappingIU>
