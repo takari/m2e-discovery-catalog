@@ -329,7 +329,7 @@
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>applies configuration from the maven-checkstyle-plugin to the eclipse Checkstyle plugin. 
+      <description>applies configuration from the maven-checkstyle-plugin to the Eclipse Checkstyle plugin. 
       Disables execution of the maven-checkstyle-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2echeckstyle</id>
@@ -353,15 +353,15 @@
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>applies configuration from the maven-checkstyle-plugin to the
-        eclipse Checkstyle plugin. Disables execution of the maven-checkstyle-plugin
+      <description>applies configuration from the maven-pmd-plugin to the
+        Eclipse PMD plugin. Disables execution of the maven-pmd-plugin
         within Eclipse in favor of the Eclipse plugin.
       </description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2epmd</id>
       <kind>lifecycles</kind>
       <license>ASL</license>
-      <name>PMD m2e</name>
+      <name>PMD M2E</name>
       <provider>Benson Margulies etc @ m2e-code-quality.github.com</provider>
       <p2>
         <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/1.0/</repositoryUrl>
