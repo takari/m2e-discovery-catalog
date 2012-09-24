@@ -332,7 +332,7 @@
       <description>applies configuration from the maven-checkstyle-plugin to the eclipse Checkstyle plugin. 
       Disables execution of the maven-checkstyle-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecycles.m2echeckstype</id>
+      <id>org.eclipse.m2e.discovery.lifecycles.m2echeckstyle</id>
       <kind>lifecycles</kind>
       <license>ASL</license>
       <name>Checkstyle M2E</name>
