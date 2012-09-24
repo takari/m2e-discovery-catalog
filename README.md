@@ -1,6 +1,6 @@
 # Testing the M2E discovery catalog
 
-This guide is for developers creating connectors for M2E. While we would like to fully streamline the process of testing and pushing connectors into the publicly available catalog, this is what we have right now. As a developer of a connector, with the following instructions, you should be able to build the catalog locally with your changes and test that your connector is available from a publicly accesible site, will install, and works as expected.
+This guide is for developers creating connectors for M2E. While we would like to fully streamline the process of testing and pushing connectors into the publicly available catalog, this is what we have right now. As a developer of a connector, with the following instructions, you should be able to build the catalog locally with your changes and test that your connector is available from a publicly accessible site, will install, and works as expected.
 
 ### Update the catalog with your entry
 
