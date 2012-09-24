@@ -329,8 +329,7 @@
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>applies configuration from the maven-checkstyle-plugin to the Eclipse Checkstyle plugin. 
-      Disables execution of the maven-checkstyle-plugin within Eclipse in favor of the Eclipse plugin.</description>
+      <description>Applies configuration from the maven-checkstyle-plugin to the Eclipse Checkstyle plugin. Disables execution of the maven-checkstyle-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2echeckstyle</id>
       <kind>lifecycles</kind>
@@ -353,10 +352,7 @@
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>applies configuration from the maven-pmd-plugin to the
-        Eclipse PMD plugin. Disables execution of the maven-pmd-plugin
-        within Eclipse in favor of the Eclipse plugin.
-      </description>
+      <description>applies configuration from the maven-pmd-plugin to the Eclipse PMD plugin. Disables execution of the maven-pmd-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2epmd</id>
       <kind>lifecycles</kind>
