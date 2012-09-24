@@ -24,6 +24,7 @@
 
   <build>
     <resources>
+      <!--
       <resource>
         <targetPath>.</targetPath>
         <filtering>false</filtering>
@@ -34,9 +35,29 @@
           <include>lifecycle/**</include>
         </includes>
       </resource>
+      -->
+      <resource>
+        <directory>src/main/resources-filtered</directory>
+        <filtering>true</filtering>
+      </resource>      
     </resources>
 
     <plugins>
+    
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.5</version>
+        <executions>
+          <execution>
+            <id>resources</id>
+            <goals>
+              <goal>resources</goal>
+            </goals>
+          </execution>
+        </executions>        
+      </plugin>
+    
       <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>maven-tinkerbell-plugin</artifactId>

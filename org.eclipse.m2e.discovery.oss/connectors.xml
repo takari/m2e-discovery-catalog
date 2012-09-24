@@ -660,6 +660,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     </catalogItem>
 
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=357118 -->
+    <!--
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>Groovy-Eclipse m2e configurator</description>
@@ -682,6 +683,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://docs.codehaus.org/display/GROOVY/Groovy-Eclipse+compiler+plugin+for+Maven</url>
       </overview>
     </catalogItem>
+    -->
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
