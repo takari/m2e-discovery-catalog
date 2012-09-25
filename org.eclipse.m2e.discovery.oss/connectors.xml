@@ -223,7 +223,7 @@
       <name>Sisu Support</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl></repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-sisu/0.15.0/N/0.15.0.201207090126/</repositoryUrl>
         <iuId>org.sonatype.m2e.sisu.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.sisu</iuId>
