@@ -1,4 +1,17 @@
-# Testing the M2E discovery catalog
+# Testing the M2E discovery catalog - for users
+
+### Test the staged connector catalog
+
+If you know that one of the connectors you use has been updated in the staging catalog then you can try the new connector by specifying the staged catalog during the startup of Eclipse. by updating the eclipse.ini file in your Eclipse installation:
+
+```
+-vmargs
+...
+...
+-Dm2e.discovery.url=http://download.eclipse.org/technology/m2e/discovery/directory-test-1.1.xml                                                                         
+```
+
+# Testing the M2E discovery catalog - for connector devs
 
 This guide is for developers creating connectors for M2E. While we would like to fully streamline the process of testing and pushing connectors into the publicly available catalog, this is what we have right now. As a developer of a connector, with the following instructions, you should be able to build the catalog locally with your changes and test that your connector is available from a publicly accessible site, will install, and works as expected.
 
@@ -28,6 +41,7 @@ Specify your newly built catalog by updating the eclipse.ini file in your Eclips
 
 ```
 -vmargs
+...
 ...
 -Dm2e.discovery.url=file:/path/to/m2e-discovery-catalog/target/classes/catalog-1.1.xml                                                                              
 ```
