@@ -24,7 +24,6 @@
 
   <build>
     <resources>
-      <!--
       <resource>
         <targetPath>.</targetPath>
         <filtering>false</filtering>
@@ -35,7 +34,6 @@
           <include>lifecycle/**</include>
         </includes>
       </resource>
-      -->
       <resource>
         <directory>src/main/resources-filtered</directory>
         <filtering>true</filtering>
