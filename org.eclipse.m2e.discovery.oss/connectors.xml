@@ -211,6 +211,30 @@
       </overview>
     </catalogItem>
 
+    <!-- SISU -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.1</m2e-versions>
+      <description>Sisu Support</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.plexus-annotations</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>Sisu Support</name>
+      <provider>Sonatype, Inc.</provider>
+      <p2>
+        <repositoryUrl></repositoryUrl>
+        <iuId>org.sonatype.m2e.sisu.feature.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>org.sonatype.m2e.sisu</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>plexus-annotations</summary>
+      </overview>
+    </catalogItem>    
+    
+    <!-- WTP -->
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
