@@ -270,6 +270,7 @@
         <url>https://github.com/sonatype/m2eclipse-cvs</url>
       </overview>
     </catalogItem>
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subversive</description>
@@ -279,8 +280,8 @@
       <license>EPL</license>
       <name>m2e-subversive</name>
       <provider>Sonatype, Inc.</provider>
-      <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-subversive/0.13.0/N/0.13.0.201106211115</repositoryUrl>
+      <p2>      
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subversive/0.13.0/N/0.13.0.201208191312/</repositoryUrl>
         <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
       </p2>
       <overview>
@@ -288,6 +289,7 @@
         <url>https://github.com/sonatype/m2eclipse-subversive</url>
       </overview>
     </catalogItem>
+    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subclipse</description>
@@ -298,7 +300,7 @@
       <name>m2e-subclipse</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-subclipse/0.13.0/N/0.13.0.201107071330/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subclipse/0.13.0/N/0.13.0.201207041403/</repositoryUrl>
         <iuId>org.sonatype.m2e.subclipse.feature.feature.group</iuId>
       </p2>
       <overview>
