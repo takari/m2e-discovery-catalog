@@ -301,6 +301,7 @@
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subversive</description>
+      <m2e-versions>1.0,1.1</m2e-versions>      
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive</id>
       <kind>extras</kind>
@@ -320,6 +321,7 @@
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subclipse</description>
+      <m2e-versions>1.0,1.1</m2e-versions>      
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse</id>
       <kind>extras</kind>
