@@ -91,7 +91,7 @@
       <name>antlr</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201109270543/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/</repositoryUrl>
         <iuId>org.sonatype.m2e.antlr.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.antlr</iuId>
@@ -101,6 +101,7 @@
         <summary>antlr</summary>
       </overview>
     </catalogItem>
+    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0</m2e-versions>
@@ -133,7 +134,7 @@
       <name>buildhelper</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.15.0/N/0.15.0.201109282249/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</repositoryUrl>
         <iuId>org.sonatype.m2e.buildhelper.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.buildhelper</iuId>
@@ -155,7 +156,7 @@
       <name>mavenarchiver pomproperties</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201109270543/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201207090125/</repositoryUrl>
         <iuId>org.sonatype.m2e.mavenarchiver.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.mavenarchiver</iuId>
@@ -165,6 +166,7 @@
         <summary>mavenarchiver basic support</summary>
       </overview>
     </catalogItem>
+    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -176,7 +178,7 @@
       <name>modello</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201109270543/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-modello/0.15.0/N/0.15.0.201207090125/</repositoryUrl>
         <iuId>org.sonatype.m2e.modello.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.modello</iuId>
@@ -186,6 +188,7 @@
         <summary>modello</summary>
       </overview>
     </catalogItem>
+    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -197,7 +200,7 @@
       <name>plexus-annotations</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201109270543/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-plexus/0.15.0/N/0.15.0.201207090126/</repositoryUrl>
         <iuId>org.sonatype.m2e.plexus.annotations.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.plexus.annotations</iuId>
@@ -208,16 +211,40 @@
       </overview>
     </catalogItem>
 
+    <!-- SISU -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.1</m2e-versions>
+      <description>Sisu Support</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.sisu</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>Sisu Support</name>
+      <provider>Sonatype, Inc.</provider>
+      <p2>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-sisu/0.15.0/N/0.15.0.201207090126/</repositoryUrl>
+        <iuId>org.sonatype.m2e.sisu.feature.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>org.sonatype.m2e.sisu</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>plexus-annotations</summary>
+      </overview>
+    </catalogItem>    
+    
+    <!-- WTP -->
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1</m2e-versions>
-      <description>m2e-wtp</description>
+      <m2e-versions>1.0</m2e-versions>
+      <description>m2eclipse-wtp</description>
       <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp</id>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2eclipse-wtp</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
-      <name>m2e-wtp</name>
+      <name>m2eclipse-wtp</name>
       <provider>JBoss by Red Hat</provider>
       <p2>
         <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/</repositoryUrl>
@@ -232,6 +259,33 @@
         <url>https://github.com/sonatype/m2eclipse-wtp</url>
       </overview>
     </catalogItem>
+     
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.1</m2e-versions>
+      <description>m2e-wtp provides a set of connectors used for the configuration of Java EE projects in WTP</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e-wtp : Maven Integration for WTP (Incubation)</name>
+      <provider>Eclipse.org</provider>
+      <p2>
+        <repositoryUrl>http://download.eclipse.org/m2e-wtp/releases/</repositoryUrl>
+        <iuId>org.eclipse.m2e.wtp.feature.feature.group</iuId>
+        <iuVersion>0.16.0.20120914-0945</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.eclipse.m2e.wtp</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Maven Integration for Eclipse WTP (a.k.a m2e-wtp) aims at providing a tight integration between Maven Integration for Eclipse (a.k.a m2e) and the Eclipse Web Tools Project (WTP).
+m2e-wtp provides a set of m2e connectors used for the configuration of Java EE projects in WTP.
+m2e-wtp also brings some advanced Maven features to the Eclipse environment such as overlays of workspace project and .war archives dependencies and on-the-fly resource filtering.
+Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by translating your Java EE eclipse project settings into maven plugin configuration.</summary>
+        <url>https://www.eclipse.org/m2e-wtp/</url>
+      </overview>
+    </catalogItem>
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
@@ -244,7 +298,7 @@
       <name>m2e-egit</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-egit/0.14.0/N/0.14.0.201110251725/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-egit/0.14.0/N/0.14.0.201207041402/</repositoryUrl>
         <iuId>org.sonatype.m2e.egit.feature.feature.group</iuId>
       </p2>
       <overview>
@@ -270,17 +324,19 @@
         <url>https://github.com/sonatype/m2eclipse-cvs</url>
       </overview>
     </catalogItem>
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subversive</description>
+      <m2e-versions>1.0,1.1</m2e-versions>      
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive</id>
       <kind>extras</kind>
       <license>EPL</license>
       <name>m2e-subversive</name>
       <provider>Sonatype, Inc.</provider>
-      <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-subversive/0.13.0/N/0.13.0.201106211115</repositoryUrl>
+      <p2>      
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subversive/0.13.0/N/0.13.0.201208191312/</repositoryUrl>
         <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
       </p2>
       <overview>
@@ -288,9 +344,11 @@
         <url>https://github.com/sonatype/m2eclipse-subversive</url>
       </overview>
     </catalogItem>
+    
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subclipse</description>
+      <m2e-versions>1.0,1.1</m2e-versions>      
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse</id>
       <kind>extras</kind>
@@ -298,7 +356,7 @@
       <name>m2e-subclipse</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-subclipse/0.13.0/N/0.13.0.201107071330/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subclipse/0.13.0/N/0.13.0.201207041403/</repositoryUrl>
         <iuId>org.sonatype.m2e.subclipse.feature.feature.group</iuId>
       </p2>
       <overview>
@@ -632,7 +690,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://rgladwell.github.com/m2e-android/updates/</repositoryUrl>
         <iuId>me.gladwell.eclipse.m2e.android.feature.feature.group</iuId>
-        <iuVersion>0.4.0</iuVersion>
+        <iuVersion>0.4.2</iuVersion>
         <lifecycleMappingIU>
           <iuId>me.gladwell.eclipse.m2e.android</iuId>
         </lifecycleMappingIU>
@@ -654,9 +712,10 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <summary>Android Configurator for M2E Maven Integration for Eclipse</summary>
         <url>http://rgladwell.github.com/m2e-android</url>
       </overview>
-    </catalogItem>
-
+    </catalogItem>  
+    
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=357118 -->
+    <!--
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>Groovy-Eclipse m2e configurator</description>
@@ -679,6 +738,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://docs.codehaus.org/display/GROOVY/Groovy-Eclipse+compiler+plugin+for+Maven</url>
       </overview>
     </catalogItem>
+    -->
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
