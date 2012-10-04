@@ -68,7 +68,7 @@
       <name>Tycho Configurator</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2eclipse-tycho/0.6.0/N/0.6.0.201112050222/</repositoryUrl>
+        <repositoryUrl>http://repository.tesla.io:8081/nexus/content/sites/m2e.extras/m2eclipse-tycho/0.6.0/N/0.6.0.201207302152/</repositoryUrl>
         <iuId>org.sonatype.tycho.m2e.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.tycho.m2e</iuId>
@@ -249,8 +249,7 @@
       <p2>
         <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/</repositoryUrl>
         <iuId>org.maven.ide.eclipse.wtp.feature.feature.group</iuId>
-        <iuVersion>0.14.0.20110928-2045</iuVersion>
-        <lifecycleMappingIU>
+         <lifecycleMappingIU>
           <iuId>org.maven.ide.eclipse.wtp</iuId>
         </lifecycleMappingIU>
       </p2>
@@ -273,7 +272,6 @@
       <p2>
         <repositoryUrl>http://download.eclipse.org/m2e-wtp/releases/</repositoryUrl>
         <iuId>org.eclipse.m2e.wtp.feature.feature.group</iuId>
-        <iuVersion>0.16.0.20120914-0945</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.eclipse.m2e.wtp</iuId>
         </lifecycleMappingIU>
