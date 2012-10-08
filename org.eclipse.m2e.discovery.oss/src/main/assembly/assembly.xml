@@ -13,5 +13,12 @@
       </includes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
+    <fileSet>
+      <directory>${project.build.directory}/classes</directory>
+      <includes>
+        <include>connectors.xml</include>
+      </includes>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>    
   </fileSets>
 </assembly>

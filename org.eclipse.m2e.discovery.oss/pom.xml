@@ -73,6 +73,11 @@
             <goals>
               <goal>generate</goal>
             </goals>
+            <configuration>
+              <descriptor>${project.build.directory}/classes/connectors.xml</descriptor>
+              <outputdir>${project.build.directory}/catalog</outputdir>
+              <m2eversion>1.0</m2eversion>
+            </configuration>            
           </execution>
           <execution>
             <id>catalog-1.1</id>
@@ -80,6 +85,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
+              <descriptor>${project.build.directory}/classes/connectors.xml</descriptor>
               <outputdir>${project.build.directory}/catalog-1.1</outputdir>
               <m2eversion>1.1</m2eversion>
             </configuration>
@@ -174,6 +180,7 @@
         <catalog.repo-name>m2e.discovery.stage</catalog.repo-name>
         <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
         <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
+        <connectorUrl>${catalog.server-url}/content/sites/m2e.extras</connectorUrl>
       </properties>
     </profile>
 
@@ -185,18 +192,9 @@
         <catalog.repo-name>m2e.discovery.release</catalog.repo-name>
         <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
         <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
+        <connectorUrl>http://repo1.maven.org/maven2/.m2e/connectors</connectorUrl>        
       </properties>
     </profile>
-
-    <profile>
-      <id>catalog-nexus</id>
-      <properties>
-        <catalog.server-url>http://localhost:8081/nexus</catalog.server-url>
-        <!-- Name of the hosted repository -->
-        <catalog.repo-name>m2e.discovery.stage</catalog.repo-name>
-        <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
-        <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
-      </properties>
-    </profile>
+    
   </profiles>
 </project>
