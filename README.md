@@ -48,4 +48,4 @@ Specify your newly built catalog by updating the eclipse.ini file in your Eclips
 ```
 Once you have tested your connector and feel that it's working as intended then submit a pull request and we will merge your catalog entry and publish a new catalog.
 
-[1]: https://github.com/tesla/m2e-discovery-catalog/blob/master/org.eclipse.m2e.discovery.oss/connectors.xml
+[1]: https://github.com/tesla/m2e-discovery-catalog/blob/master/org.eclipse.m2e.discovery.oss/src/main/resources-filtered/connectors.xml
