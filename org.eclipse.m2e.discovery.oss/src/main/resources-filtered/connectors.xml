@@ -590,7 +590,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
-    <!-- dependencypath :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=365958 -->
+    <!-- dependencypath -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -603,9 +603,9 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <name>m2e connector for org.bitstrings.maven.plugins:dependencypath-maven-plugin</name>
       <provider>bitstrings.org - Pino Silvaggio</provider>
       <p2>
-        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/milestones</repositoryUrl>
+        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/releases</repositoryUrl>
         <iuId>org.bitstrings.eclipse.m2e.connectors.dependencypath.features.feature.group</iuId>
-        <iuVersion>2.0.0.201112072018</iuVersion>
+        <iuVersion>2.0.0.20120826-0129</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.bitstrings.eclipse.m2e.connectors.dependencypath</iuId>
         </lifecycleMappingIU>
@@ -616,7 +616,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
-    <!-- jaxb2 :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=365958 -->
+    <!-- jaxb2 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
@@ -625,16 +625,16 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         http://java.net/projects/maven-jaxb2-plugin/pages/Home
       </description>
       <groupId>lifecycles</groupId>
-  
+
       <id>org.eclipse.m2e.discovery.lifecycles.org.bitstrings.eclipse.m2e.connectors.jaxb2</id>
       <kind>lifecycles</kind>
       <license>EPL v1.0</license>
       <name>m2e connector for org.codehaus.mojo:jaxb2-maven-plugin and org.jvnet.jaxb2.maven2:maven-jaxb2-plugin</name>
       <provider>bitstrings.org - Pino Silvaggio</provider>
       <p2>
-        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/milestones</repositoryUrl>
+        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/releases</repositoryUrl>
         <iuId>org.bitstrings.eclipse.m2e.connectors.jaxb2.features.feature.group</iuId>
-        <iuVersion>2.0.0.201112072018</iuVersion>
+        <iuVersion>2.0.0.20120826-0129</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.bitstrings.eclipse.m2e.connectors.jaxb2</iuId>
         </lifecycleMappingIU>
@@ -644,23 +644,23 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>http://bitstrings.org</url>
       </overview>
     </catalogItem>
-    
-    <!-- xmlbeans :: https://bugs.eclipse.org/bugs/show_bug.cgi?id=365958 -->
+
+    <!-- xmlbeans -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1</m2e-versions>
       <description>m2e connector for XmlBeans Maven plugin, http://mojo.codehaus.org/xmlbeans-maven-plugin</description>
       <groupId>lifecycles</groupId>
-  
+
       <id>org.eclipse.m2e.discovery.lifecycles.org.bitstrings.eclipse.m2e.connectors.xmlbeans</id>
       <kind>lifecycles</kind>
       <license>EPL v1.0</license>
       <name>m2e connector for org.codehaus.mojo:xmlbeans-maven-plugin</name>
       <provider>bitstrings.org - Pino Silvaggio</provider>
       <p2>
-        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/milestones</repositoryUrl>
+        <repositoryUrl>http://bitstrings.github.com/m2e-connectors-p2/releases</repositoryUrl>
         <iuId>org.bitstrings.eclipse.m2e.connectors.xmlbeans.features.feature.group</iuId>
-        <iuVersion>2.0.0.201112072018</iuVersion>
+        <iuVersion>2.0.0.20120826-0129</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.bitstrings.eclipse.m2e.connectors.xmlbeans</iuId>
         </lifecycleMappingIU>
