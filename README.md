@@ -43,6 +43,7 @@ Specify your newly built catalog by updating the eclipse.ini file in your Eclips
 -vmargs
 ...
 ...
+
 -Dm2e.discovery.url=file:/path/to/m2e-discovery-catalog/org.eclipse.m2e.discovery.oss/target/classes/catalog-1.1.xml                                                                              
 ```
 Once you have tested your connector and feel that it's working as intended then submit a pull request and we will merge your catalog entry and publish a new catalog.
