@@ -695,7 +695,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://dist.springsource.org/release/AJDT/composite/</repositoryUrl>
         <iuId>org.maven.ide.eclipse.ajdt.feature.feature.group</iuId>
-        <iuVersion>0.13.0.201107281640</iuVersion>
+        <iuVersion>0.14.0.201301311331</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.maven.ide.eclipse.ajdt</iuId>
         </lifecycleMappingIU>
