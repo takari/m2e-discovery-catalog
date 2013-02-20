@@ -334,7 +334,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e-subversive</name>
       <provider>Sonatype, Inc.</provider>
       <p2>      
-        <repositoryUrl>${connectorUrl}/m2eclipse-subversive/0.13.0/N/0.13.0.201208191312/</repositoryUrl>
+        <repositoryUrl>${connectorUrl}/m2eclipse-subversive/0.13.0/N/0.13.0.201302121311/</repositoryUrl>
         <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
       </p2>
       <overview>
