@@ -395,7 +395,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/1.0/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.checkstyle.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201209141747</iuVersion>
+        <iuVersion>1.0.0.201211052156</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.checkstyle</iuId>
         </lifecycleMappingIU>
@@ -419,7 +419,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/1.0/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.pmd.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201209141747</iuVersion>
+        <iuVersion>1.0.0.201211052156</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.pmd</iuId>
         </lifecycleMappingIU>
