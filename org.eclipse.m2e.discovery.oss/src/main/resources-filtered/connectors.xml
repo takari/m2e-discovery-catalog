@@ -384,7 +384,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>Applies configuration from the maven-checkstyle-plugin to the Eclipse Checkstyle plugin. Disables execution of the maven-checkstyle-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2echeckstyle</id>
@@ -395,7 +395,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/latest/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.checkstyle.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201307141826</iuVersion>
+        <iuVersion>1.0.0.201307281919</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.checkstyle</iuId>
         </lifecycleMappingIU>
@@ -408,7 +408,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>applies configuration from the maven-pmd-plugin to the Eclipse PMD plugin. Disables execution of the maven-pmd-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2epmd</id>
@@ -419,7 +419,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/latest/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.pmd.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201307141826</iuVersion>
+        <iuVersion>1.0.0.201307281919</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.pmd</iuId>
         </lifecycleMappingIU>
@@ -432,7 +432,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>Applies configuration from the maven-findbugs-plugin to the Eclipse Findbugs plugin. Disables execution of the maven-findbugs-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2efindbugs</id>
@@ -443,7 +443,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://m2e-code-quality.github.com/m2e-code-quality/site/latest/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.findbugs.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201307141826</iuVersion>
+        <iuVersion>1.0.0.201307281919</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.findbugs</iuId>
         </lifecycleMappingIU>
