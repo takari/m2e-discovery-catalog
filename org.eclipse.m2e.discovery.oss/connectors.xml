@@ -670,9 +670,9 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <name>Groovy-Eclipse</name>
       <provider>the Codehaus</provider>
       <p2>
-        <repositoryUrl>http://dist.codehaus.org/groovy/distributions/greclipse/snapshot/e3.7</repositoryUrl>
+        <repositoryUrl>http://dist.springsource.org/snapshot/GRECLIPSE/e4.3/</repositoryUrl>
         <iuId>org.codehaus.groovy.m2eclipse.feature.group</iuId>
-        <iuVersion>2.5.2.xx-20110915-1700-e37</iuVersion>
+        <iuVersion>2.8.0.xx-20130703-1600-e43-RELEASE</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.codehaus.groovy.m2eclipse</iuId>
         </lifecycleMappingIU>

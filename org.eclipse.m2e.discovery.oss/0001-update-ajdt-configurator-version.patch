@@ -1,0 +1,25 @@
+From 8b3892b5d6d38979bd77d825270570f36d4626d8 Mon Sep 17 00:00:00 2001
+From: Andrew Eisenberg <aeisenberg@vmware.com>
+Date: Thu, 31 Jan 2013 13:53:12 -0800
+Subject: [PATCH] update ajdt configurator version
+
+---
+ org.eclipse.m2e.discovery.oss/connectors.xml |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/org.eclipse.m2e.discovery.oss/connectors.xml b/org.eclipse.m2e.discovery.oss/connectors.xml
+index a6684a6..7b7d307 100644
+--- a/org.eclipse.m2e.discovery.oss/connectors.xml
++++ b/org.eclipse.m2e.discovery.oss/connectors.xml
+@@ -695,7 +695,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
+       <p2>
+         <repositoryUrl>http://dist.springsource.org/release/AJDT/composite/</repositoryUrl>
+         <iuId>org.maven.ide.eclipse.ajdt.feature.feature.group</iuId>
+-        <iuVersion>0.13.0.201107281640</iuVersion>
++        <iuVersion>0.14.0.201301311331</iuVersion>
+         <lifecycleMappingIU>
+           <iuId>org.maven.ide.eclipse.ajdt</iuId>
+         </lifecycleMappingIU>
+-- 
+1.7.9.4
+
