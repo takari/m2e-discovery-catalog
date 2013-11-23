@@ -20,7 +20,7 @@
   <properties>
     <tycho-version>0.11.0</tycho-version>
 
-    <m2e-core.url>http://download.eclipse.org/technology/m2e/milestones/1.3</m2e-core.url>
+    <m2e-core.url>http://download.eclipse.org/technology/m2e/releases/1.4</m2e-core.url>
   </properties>
 
   <build>
