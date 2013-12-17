@@ -903,5 +903,77 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <description>M2E Extension to ignore the mycila License plugin in Maven POM files.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-mycila-license</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-mycila-license</name>
+      <provider>basepom.org</provider>
+      <p2>
+        <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
+        <iuId>org.basepom.m2e.mycila-license.feature.feature.group</iuId>
+        <iuVersion>1.0.1</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.basepom.m2e.mycila-license</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e extension for Maven mycila license plugin</summary>
+        <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
+
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <description>M2E Extension to ignore the Ning duplicate-finder plugin in Maven POM files.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-duplicate-finder</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-ning-duplicate-finder</name>
+      <provider>basepom.org</provider>
+      <p2>
+        <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
+        <iuId>org.basepom.m2e.ning-duplicate-finder.feature.feature.group</iuId>
+        <iuVersion>1.0.1</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.basepom.m2e.ning-duplicate-finder</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e extension for Ning duplicate-finder plugin</summary>
+        <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
+
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <description>M2E Extension to ignore the Ning dependency-versions-check plugin in Maven POM files.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-dependency-versions-check</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-ning-dependency-versions-check</name>
+      <provider>basepom.org</provider>
+      <p2>
+        <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
+        <iuId>org.basepom.m2e.ning-dependency-versions-check.feature.feature.group</iuId>
+        <iuVersion>1.0.1</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.basepom.m2e.ning-dependency-versions-check</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e extension for Ning dependency-versions-check plugin</summary>
+        <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
+
   </catalogItems>
 </catalog>
