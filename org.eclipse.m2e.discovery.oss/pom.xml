@@ -198,6 +198,7 @@
   <profiles>
     <profile>
       <id>catalog-stage</id>
+      <activation><activeByDefault>true</activeByDefault></activation>
       <properties>
         <catalog.server-url>http://repository.tesla.io:8081/nexus</catalog.server-url>      
         <!-- Name of the hosted repository -->
