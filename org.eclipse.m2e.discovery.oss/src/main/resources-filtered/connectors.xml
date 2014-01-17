@@ -105,7 +105,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>antlr</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.antlr</id>
@@ -148,7 +148,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.1,1.3</m2e-versions>
+      <m2e-versions>1.1,1.3,1.4</m2e-versions>
       <description>buildhelper</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.buildhelper</id>
@@ -170,7 +170,7 @@
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>mavenarchiver basic support</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.mavenarchiver</id>
@@ -192,7 +192,7 @@
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>modello</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.modello</id>
@@ -214,7 +214,7 @@
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>plexus-annotations</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.plexus-annotations</id>
@@ -237,7 +237,7 @@
     <!-- SISU -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.1,1.3</m2e-versions>
+      <m2e-versions>1.1,1.3,1.4</m2e-versions>
       <description>Sisu Support</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.sisu</id>
@@ -283,7 +283,7 @@
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.1,1.3</m2e-versions>
+      <m2e-versions>1.1,1.3,1.4</m2e-versions>
       <description>m2e-wtp provides a set of connectors used for the configuration of Java EE projects in WTP</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp</id>
@@ -309,7 +309,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>Maven SCM Handler for EGit</description>
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit</id>
@@ -348,7 +348,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subversive</description>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>      
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive</id>
       <kind>extras</kind>
@@ -368,7 +368,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subclipse</description>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>      
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse</id>
       <kind>extras</kind>
@@ -639,7 +639,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     <!-- dependencypath -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>m2e connector for Dependency Path Maven plugins, https://github.com/bitstrings/dependencypath-maven-plugin</description>
       <groupId>lifecycles</groupId>
 
@@ -665,7 +665,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     <!-- jaxb2 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>m2e connector for Jaxb2 Maven plugins,
         http://mojo.codehaus.org/jaxb2-maven-plugin and
         http://java.net/projects/maven-jaxb2-plugin/pages/Home
@@ -694,7 +694,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     <!-- xmlbeans -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>m2e connector for XmlBeans Maven plugin, http://mojo.codehaus.org/xmlbeans-maven-plugin</description>
       <groupId>lifecycles</groupId>
 
@@ -855,7 +855,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>m2e connector for maven-wro4j-plugin</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wro4j</id>
@@ -879,7 +879,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
       </description>
       <groupId>lifecycles</groupId>
@@ -904,7 +904,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>M2E connector for the Eclipse JDT Compiler</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-jdt-compiler</id>
@@ -928,7 +928,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>M2E Extension to ignore the mycila License plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-mycila-license</id>
@@ -952,7 +952,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>M2E Extension to ignore the Ning duplicate-finder plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-duplicate-finder</id>
@@ -976,7 +976,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
       <description>M2E Extension to ignore the Ning dependency-versions-check plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-dependency-versions-check</id>
