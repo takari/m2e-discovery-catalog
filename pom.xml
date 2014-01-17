@@ -18,6 +18,7 @@
   </modules>
 
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tycho-version>0.11.0</tycho-version>
 
     <m2e-core.url>http://download.eclipse.org/technology/m2e/releases/1.4</m2e-core.url>

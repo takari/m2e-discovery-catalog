@@ -22,6 +22,15 @@
    This assumes nexus-pro with nexus-unpack-plugin  
    -->
 
+  <properties>
+    <catalog.server-url>http://repository.tesla.io:8081/nexus</catalog.server-url>      
+    <!-- Name of the hosted repository -->
+    <catalog.repo-name>m2e.discovery.release</catalog.repo-name>
+    <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
+    <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
+    <connectorUrl>http://repo1.maven.org/maven2/.m2e/connectors</connectorUrl>        
+  </properties>
+
   <build>
     <resources>
       <resource>
@@ -208,18 +217,5 @@
         <connectorUrl>${catalog.server-url}/content/sites/m2e.extras</connectorUrl>
       </properties>
     </profile>
-
-    <profile>
-      <id>catalog-release</id>
-      <properties>
-        <catalog.server-url>http://repository.tesla.io:8081/nexus</catalog.server-url>      
-        <!-- Name of the hosted repository -->
-        <catalog.repo-name>m2e.discovery.release</catalog.repo-name>
-        <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
-        <catalog.repo-url>${catalog.server-url}/content/repositories/${catalog.repo-name}</catalog.repo-url>
-        <connectorUrl>http://repo1.maven.org/maven2/.m2e/connectors</connectorUrl>        
-      </properties>
-    </profile>
-    
   </profiles>
 </project>
