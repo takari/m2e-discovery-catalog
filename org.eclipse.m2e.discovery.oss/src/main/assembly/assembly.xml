@@ -12,6 +12,7 @@
         <include>${project.artifactId}-catalog-1.1.jar</include>
         <include>${project.artifactId}-catalog-1.3.jar</include>
         <include>${project.artifactId}-catalog-1.4.jar</include>
+        <include>${project.artifactId}-catalog-1.5.jar</include>
       </includes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
