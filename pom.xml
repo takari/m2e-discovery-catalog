@@ -79,8 +79,8 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>rso-snapshots</id>
-      <url>https://repository.sonatype.org/content/repositories/snapshots/</url>
+      <id>tesla-snapshots</id>
+      <url>http://repository.tesla.io:8081/nexus/content/repositories/snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
