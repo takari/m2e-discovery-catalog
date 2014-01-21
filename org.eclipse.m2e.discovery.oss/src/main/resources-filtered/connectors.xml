@@ -1022,5 +1022,29 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       </overview>
     </catalogItem>
 
+    <catalogItem>
+        <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+        <m2e-versions>1.4,1.5</m2e-versions>
+        <description>Maven integration for Liferay IDE and the liferay-maven-plugin</description>
+        <groupId>lifecycles</groupId>
+        <id>org.eclipse.m2e.discovery.lifecyclemapping.liferay-maven-plugin</id>
+        <kind>lifecycles</kind>
+        <license>LGPL</license>
+        <name>m2e connector for liferay-maven-plugin</name>
+        <provider>Liferay, Inc.</provider>
+        <p2>
+            <repositoryUrl>http://releases.liferay.com/tools/ide/latest/stable/</repositoryUrl>
+            <iuId>com.liferay.ide.maven.feature.group</iuId>
+            <iuVersion>2.0.0.201312200205-ga1</iuVersion>
+            <lifecycleMappingIU>
+                <iuId>com.liferay.ide.maven.core</iuId>
+            </lifecycleMappingIU>
+        </p2>
+        <overview>
+            <summary>Provides the lifecycle mapping for liferay-maven-plugin projects and also integration for other liferay goals</summary>
+            <url>https://github.com/liferay/liferay-ide</url>
+        </overview>
+    </catalogItem>
+
   </catalogItems>
 </catalog>
