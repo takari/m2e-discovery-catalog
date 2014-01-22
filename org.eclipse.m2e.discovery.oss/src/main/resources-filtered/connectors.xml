@@ -179,7 +179,7 @@
       <name>mavenarchiver pomproperties</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>${connectorUrl}/m2eclipse-mavenarchiver/0.15.0/N/0.15.0.201207090125/</repositoryUrl>
+        <repositoryUrl>${connectorUrl}/m2eclipse-mavenarchiver/0.16.0/N/0.16.0.201401211452/</repositoryUrl>
         <iuId>org.sonatype.m2e.mavenarchiver.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.mavenarchiver</iuId>
