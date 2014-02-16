@@ -1095,5 +1095,28 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         </overview>
     </catalogItem>
 
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.4,1.5</m2e-versions>
+      <description>Maven Integration for Scala IDE and the scala-maven-plugin</description>
+      <groupId>lifecycles</groupId>
+      <id>org.sonatype.m2e.discovery.lifecyclemapping.scala-maven-plugin</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e connector for scala-maven-plugin</name>
+      <provider>Sonatype, Inc. - David Bernard</provider>
+      <p2>
+        <repositoryUrl>http://alchim31.free.fr/m2e-scala/update-site/m2eclipse-scala/</repositoryUrl>
+        <iuId>org.maven.ide.eclipse.scala_feature.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>org.maven.ide.eclipse.scala</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Provides the lifecycle mapping for scala-maven-plugin</summary>
+        <url>https://github.com/sonatype/m2eclipse-scala</url>
+      </overview>
+    </catalogItem>
+
   </catalogItems>
 </catalog>
