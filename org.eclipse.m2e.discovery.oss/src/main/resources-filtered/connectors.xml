@@ -1023,6 +1023,30 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
     </catalogItem>
 
     <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
+      <description>M2E Extension for the org.basepom property-helper plugin.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-property-helper</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-property-helper</name>
+      <provider>basepom.org</provider>
+      <p2>
+        <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
+        <iuId>org.basepom.m2e.property-helper.feature.feature.group</iuId>
+        <iuVersion>1.0.1</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.basepom.m2e.property-helper</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>M2E Extension for the org.basepom property-helper plugin.</summary>
+        <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
+
+    <catalogItem>
         <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
         <m2e-versions>1.4,1.5</m2e-versions>
         <description>Maven integration for Liferay IDE and the liferay-maven-plugin</description>
