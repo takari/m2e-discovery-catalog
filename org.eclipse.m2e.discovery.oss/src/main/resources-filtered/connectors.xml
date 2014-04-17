@@ -734,7 +734,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://rgladwell.github.com/m2e-android/updates/</repositoryUrl>
         <iuId>me.gladwell.eclipse.m2e.android.feature.feature.group</iuId>
-        <iuVersion>0.4.3</iuVersion>
+        <iuVersion>1.0.0</iuVersion>
         <lifecycleMappingIU>
           <iuId>me.gladwell.eclipse.m2e.android</iuId>
         </lifecycleMappingIU>
@@ -749,7 +749,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         </rootIU>
       </p2>
       <overview>
-        <summary>Android Configurator for M2E Maven Integration for Eclipse</summary>
+        <summary>Android Configurator for Maven Eclipse</summary>
         <url>http://rgladwell.github.com/m2e-android</url>
       </overview>
     </catalogItem>  
