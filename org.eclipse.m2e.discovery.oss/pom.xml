@@ -56,9 +56,9 @@
       </plugin>
     
       <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>maven-tinkerbell-plugin</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>io.takari</groupId>
+        <artifactId>maven-nolifecycle-plugin</artifactId>
+        <version>0.0.1</version>
         <extensions>true</extensions>
       </plugin>
 
