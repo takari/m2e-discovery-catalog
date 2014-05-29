@@ -952,7 +952,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4,1.5</m2e-versions>
       <description>M2E Extension to ignore the mycila License plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-mycila-license</id>
@@ -976,7 +976,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4,1.5</m2e-versions>
       <description>M2E Extension to ignore the Ning duplicate-finder plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-duplicate-finder</id>
@@ -1000,7 +1000,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4,1.5</m2e-versions>
       <description>M2E Extension to ignore the Ning dependency-versions-check plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-dependency-versions-check</id>
@@ -1024,7 +1024,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1,1.3,1.4</m2e-versions>
+      <m2e-versions>1.0,1.1,1.3,1.4,1.5</m2e-versions>
       <description>M2E Extension for the org.basepom property-helper plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-property-helper</id>
