@@ -866,7 +866,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-wro4j/</repositoryUrl>
         <iuId>org.jboss.tools.m2e.wro4j.feature.feature.group</iuId>
-        <iuVersion>1.0.1.201209200854</iuVersion>
+        <iuVersion>1.1.0.201406251020</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.jboss.tools.m2e.wro4j.core</iuId>
         </lifecycleMappingIU>
