@@ -915,7 +915,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <p2>
         <repositoryUrl>http://download.jboss.org/jbosstools/builds/staging/m2e-apt/all/repo/</repositoryUrl>
         <iuId>org.jboss.tools.maven.apt.feature.feature.group</iuId>
-        <iuVersion>1.1.0.201311290819</iuVersion>
+        <iuVersion>1.1.0.201405210909</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.jboss.tools.maven.apt.core</iuId>
         </lifecycleMappingIU>
