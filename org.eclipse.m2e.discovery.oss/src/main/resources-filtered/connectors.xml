@@ -278,7 +278,7 @@
       </p2>
       <overview>
         <summary>Maven Integration for WTP</summary>
-        <url>https://github.com/sonatype/m2eclipse-wtp</url>
+        <url>https://github.com/tesla/m2eclipse-wtp</url>
       </overview>
     </catalogItem>
     <catalogItem>
@@ -323,7 +323,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       </p2>
       <overview>
         <summary>Maven SCM Handler for EGit</summary>
-        <url>https://github.com/sonatype/m2eclipse-egit</url>
+        <url>https://github.com/tesla/m2eclipse-egit</url>
       </overview>
     </catalogItem>
     <catalogItem>
@@ -341,7 +341,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       </p2>
       <overview>
         <summary>Maven SCM Handler for CVS</summary>
-        <url>https://github.com/sonatype/m2eclipse-cvs</url>
+        <url>https://github.com/tesla/m2eclipse-cvs</url>
       </overview>
     </catalogItem>
 
@@ -361,7 +361,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       </p2>
       <overview>
         <summary>Maven SCM Handler for Subversive</summary>
-        <url>https://github.com/sonatype/m2eclipse-subversive</url>
+        <url>https://github.com/tesla/m2eclipse-subversive</url>
       </overview>
     </catalogItem>
     
@@ -381,7 +381,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       </p2>
       <overview>
         <summary>Maven SCM Handler for Subclipse</summary>
-        <url>https://github.com/sonatype/m2eclipse-subclipse</url>
+        <url>https://github.com/tesla/m2eclipse-subclipse</url>
       </overview>
     </catalogItem>
     <catalogItem>
