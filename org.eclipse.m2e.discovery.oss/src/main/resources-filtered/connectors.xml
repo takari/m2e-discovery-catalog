@@ -759,15 +759,39 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>Groovy-Eclipse m2e configurator</description>
       <groupId>lifecycles</groupId>
-      <id>org.codehaus.groovy.m2eclipse</id>
+      <m2e-versions>1.4</m2e-versions>
+      <id>org.codehaus.groovy.m2eclipse.e43</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>Groovy-Eclipse</name>
       <provider>the Codehaus</provider>
       <p2>
-        <repositoryUrl>http://dist.springsource.org/milestone/GRECLIPSE/e4.3/</repositoryUrl>
+        <repositoryUrl>http://dist.springsource.org/release/GRECLIPSE/e4.3</repositoryUrl>
         <iuId>org.codehaus.groovy.m2eclipse.feature.feature.group</iuId>
-        <iuVersion>2.9.0.xx-201405030018-e43</iuVersion>
+        <iuVersion>2.9.0.xx-201407142051-e43-RELEASE</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.codehaus.groovy.m2eclipse</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Maven Integration for Grooovy-Eclipse</summary>
+        <url>http://docs.codehaus.org/display/GROOVY/Groovy-Eclipse+compiler+plugin+for+Maven</url>
+      </overview>
+    </catalogItem>
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <description>Groovy-Eclipse m2e configurator</description>
+      <groupId>lifecycles</groupId>
+      <m2e-versions>1.5</m2e-versions>
+      <id>org.codehaus.groovy.m2eclipse.e44</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>Groovy-Eclipse</name>
+      <provider>the Codehaus</provider>
+      <p2>
+        <repositoryUrl>http://dist.springsource.org/release/GRECLIPSE/e4.4</repositoryUrl>
+        <iuId>org.codehaus.groovy.m2eclipse.feature.feature.group</iuId>
+        <iuVersion>2.9.0.xx-201407142235-e44-RELEASE</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.codehaus.groovy.m2eclipse</iuId>
         </lifecycleMappingIU>
