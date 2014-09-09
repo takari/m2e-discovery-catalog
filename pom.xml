@@ -80,7 +80,7 @@
   <pluginRepositories>
     <pluginRepository>
       <id>tesla-snapshots</id>
-      <url>http://repository.tesla.io:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://repository.tesla.io:8081/nexus/content/repositories/public/</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
