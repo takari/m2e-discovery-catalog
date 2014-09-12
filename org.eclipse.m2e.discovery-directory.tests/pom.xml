@@ -8,18 +8,6 @@
   <artifactId>org.eclipse.m2e.discovery-directory.tests</artifactId>
   <packaging>eclipse-test-plugin</packaging>
 
-  <repositories>
-    <repository>
-      <id>snapshots</id>
-      <url>https://repository.sonatype.org/content/repositories/snapshots/</url>
-    </repository>
-    <repository>
-      <id>m2e-latest-build</id>
-      <layout>p2</layout>
-      <url>${m2e-core.url}</url>
-    </repository>
-  </repositories>
-
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>

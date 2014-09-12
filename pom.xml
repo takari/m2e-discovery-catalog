@@ -76,30 +76,4 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>tesla-snapshots</id>
-      <url>http://repository.takari.io:8081/nexus/content/repositories/snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-      <id>sonatype-snapshots</id>
-      <url>https://repository.sonatype.org/content/repositories/snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-  <repositories>
-    <repository>
-      <id>sonatype-snapshots</id>
-      <url>https://repository.sonatype.org/content/repositories/snapshots/</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 </project>

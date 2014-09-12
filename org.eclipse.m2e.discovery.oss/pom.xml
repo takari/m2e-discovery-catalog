@@ -65,7 +65,7 @@
       <plugin>
         <groupId>io.takari.m2e.discovery.publisher</groupId>
         <artifactId>org.sonatype.m2e.discovery.publisher.maven-plugin</artifactId>
-        <version>0.1.0</version>
+        <version>0.4.0</version>
         <executions>
           <execution>
             <id>catalog</id>
@@ -189,7 +189,7 @@
                   <pluginExecutionFilter>
                     <groupId>org.sonatype.m2e.discovery.publisher</groupId>
                     <artifactId>org.sonatype.m2e.discovery.publisher.maven-plugin</artifactId>
-                    <versionRange>[0.0.1-SNAPSHOT,)</versionRange>
+                    <versionRange>[0.0.1,)</versionRange>
                     <goals>
                       <goal>generate</goal>
                     </goals>
