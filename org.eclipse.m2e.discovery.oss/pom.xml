@@ -187,7 +187,7 @@
               <pluginExecutions>
                 <pluginExecution>
                   <pluginExecutionFilter>
-                    <groupId>org.sonatype.m2e.discovery.publisher</groupId>
+                    <groupId>io.takari.m2e.discovery.publisher</groupId>
                     <artifactId>org.sonatype.m2e.discovery.publisher.maven-plugin</artifactId>
                     <versionRange>[0.0.1,)</versionRange>
                     <goals>
