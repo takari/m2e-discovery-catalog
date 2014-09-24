@@ -908,7 +908,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
       </description>
       <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apt</id>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apt-14</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>m2e-apt</name>
@@ -932,7 +932,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
       </description>
       <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apt</id>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apt-15</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>m2e-apt</name>
@@ -1117,6 +1117,27 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>https://github.com/sonatype/m2eclipse-scala</url>
       </overview>
     </catalogItem>
-
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.4,1.5</m2e-versions>
+      <description>m2e connector for the Maven Dependency Plugin</description>
+      <groupId>lifecycles</groupId>
+      <id>com.ianbrandt.tools.m2e.discovery.lifecyclemapping.maven-dependency-plugin</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e connector for maven-dependency-plugin</name>
+      <provider>Ian Brandt</provider>
+      <p2>
+        <repositoryUrl>http://ianbrandt.github.io/m2e-maven-dependency-plugin/</repositoryUrl>
+        <iuId>com.ianbrandt.tools.m2e.mdp.feature.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>com.ianbrandt.tools.m2e.mdp.core</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e connector for the Maven Dependency Plugin</summary>
+        <url>https://github.com/ianbrandt/m2e-maven-dependency-plugin</url>
+      </overview>
+    </catalogItem>
   </catalogItems>
 </catalog>
