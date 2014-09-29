@@ -1128,7 +1128,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <name>m2e connector for maven-dependency-plugin</name>
       <provider>Ian Brandt</provider>
       <p2>
-        <repositoryUrl>http://ianbrandt.github.io/m2e-maven-dependency-plugin/0.0.3/</repositoryUrl>
+        <repositoryUrl>http://ianbrandt.github.io/m2e-maven-dependency-plugin/0.0.4/</repositoryUrl>
         <iuId>com.ianbrandt.tools.m2e.mdp.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>com.ianbrandt.tools.m2e.mdp.core</iuId>
