@@ -1139,6 +1139,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <url>https://github.com/ianbrandt/m2e-maven-dependency-plugin</url>
       </overview>
     </catalogItem>
+    <!--
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.0,1.1,1.3,1.4,1.5</m2e-versions>
@@ -1184,6 +1185,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <summary>m2e connector for Xtext Maven plugin</summary>
         <url> http://www.eclipse.org/Xtext/</url>
       </overview>
-    </catalogItem>    
+    </catalogItem>
+    -->  
   </catalogItems>
 </catalog>
