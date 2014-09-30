@@ -314,7 +314,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e-cvs</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/sites/forge-sites/m2eclipse-cvs/0.13.0/N/0.13.0.201106260822/</repositoryUrl>
+        <repositoryUrl>http://repository.takari.io:8081/nexus/content/sites/m2e.extras/m2eclipse-cvs/0.13.0/N/0.13.0.201304101743/</repositoryUrl>
         <iuId>org.sonatype.m2e.cvs.feature.feature.group</iuId>
       </p2>
       <overview>
@@ -372,7 +372,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>maven.runtime.3.0.3</name>
       <provider>Sonatype, Inc.</provider>
       <p2>
-        <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/sonatype-m2e/org.sonatype.m2e.maven.runtime.3.0.3/1.0.1/N/1.0.1.201106291304</repositoryUrl>
+        <repositoryUrl>http://repository.takari.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subclipse/0.13.0/N/0.13.0.201303011221/</repositoryUrl>
         <iuId>org.sonatype.m2e.maven.runtime.3.0.3.feature.group</iuId>
       </p2>
       <overview>
