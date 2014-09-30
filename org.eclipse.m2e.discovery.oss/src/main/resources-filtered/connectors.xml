@@ -44,7 +44,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>Tycho Configurator</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-tycho/0.6.0/N/0.6.0.201207302152/</repositoryUrl>
         <iuId>org.sonatype.tycho.m2e.feature.feature.group</iuId>
@@ -67,7 +67,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>Tycho Configurator</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-tycho/0.7.0/N/0.7.0.201309291400/</repositoryUrl>
         <iuId>org.sonatype.tycho.m2e.feature.feature.group</iuId>
@@ -90,7 +90,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>antlr</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-antlr/0.15.0/N/0.15.0.201207090124/</repositoryUrl>
         <iuId>org.sonatype.m2e.antlr.feature.feature.group</iuId>
@@ -112,7 +112,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>buildhelper</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</repositoryUrl>
         <iuId>org.sonatype.m2e.buildhelper.feature.feature.group</iuId>
@@ -133,7 +133,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>buildhelper</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</repositoryUrl>
         <iuId>org.sonatype.m2e.buildhelper.feature.feature.group</iuId>
@@ -155,7 +155,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>mavenarchiver pomproperties</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-mavenarchiver/0.16.0/N/LATEST/</repositoryUrl>
         <iuId>org.sonatype.m2e.mavenarchiver.feature.feature.group</iuId>
@@ -177,7 +177,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>modello</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-modello/0.15.0/N/0.15.0.201207090125/</repositoryUrl>
         <iuId>org.sonatype.m2e.modello.feature.feature.group</iuId>
@@ -199,7 +199,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>plexus-annotations</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-plexus/0.15.0/N/0.15.0.201207090126/</repositoryUrl>
         <iuId>org.sonatype.m2e.plexus.annotations.feature.feature.group</iuId>
@@ -222,7 +222,7 @@
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>Sisu Support</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-sisu/0.15.0/N/0.15.0.201207090126/</repositoryUrl>
         <iuId>org.sonatype.m2e.sisu.feature.feature.group</iuId>
@@ -294,7 +294,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <kind>extras</kind>
       <license>EPL</license>
       <name>m2e-egit</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-egit/0.14.0/N/0.14.0.201406241643/</repositoryUrl>
         <iuId>org.sonatype.m2e.egit.feature.feature.group</iuId>
@@ -312,7 +312,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <kind>extras</kind>
       <license>EPL</license>
       <name>m2e-cvs</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>http://repository.takari.io:8081/nexus/content/sites/m2e.extras/m2eclipse-cvs/0.13.0/N/0.13.0.201304101743/</repositoryUrl>
         <iuId>org.sonatype.m2e.cvs.feature.feature.group</iuId>
@@ -332,7 +332,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <kind>extras</kind>
       <license>EPL</license>
       <name>m2e-subversive</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>      
         <repositoryUrl>${connectorUrl}/m2eclipse-subversive/0.13.0/N/0.13.0.201302121311/</repositoryUrl>
         <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
@@ -352,7 +352,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <kind>extras</kind>
       <license>EPL</license>
       <name>m2e-subclipse</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-subclipse/0.13.0/N/0.13.0.201303011221/</repositoryUrl>
         <iuId>org.sonatype.m2e.subclipse.feature.feature.group</iuId>
@@ -370,7 +370,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <kind>maven</kind>
       <license>EPL</license>
       <name>maven.runtime.3.0.3</name>
-      <provider>Sonatype, Inc.</provider>
+      <provider>Takari, Inc.</provider>
       <p2>
         <repositoryUrl>http://repository.takari.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subclipse/0.13.0/N/0.13.0.201303011221/</repositoryUrl>
         <iuId>org.sonatype.m2e.maven.runtime.3.0.3.feature.group</iuId>
@@ -1082,7 +1082,7 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>m2e connector for scala-maven-plugin</name>
-      <provider>Sonatype, Inc. - David Bernard</provider>
+      <provider>Takari, Inc. - David Bernard</provider>
       <p2>
         <repositoryUrl>http://alchim31.free.fr/m2e-scala/update-site/m2eclipse-scala/</repositoryUrl>
         <iuId>org.maven.ide.eclipse.scala_feature.feature.group</iuId>
