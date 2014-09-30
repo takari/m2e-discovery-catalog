@@ -18,9 +18,9 @@ If you know that one of the connectors you use has been updated in the staging c
 
 Adding new entries to the discovery catalog is a matter of creating a pull request with your new, well tested, entry. The process consists of making the appropriate edits to the [connectors document][1], building the catalog, and testing the that the connector is available for  your target project types and the import process works correctly.
 
-## Testing the M2E discovery catalog - for connector devs
+While we would like to fully streamline the process of testing and pushing connectors into the publicly available catalog, this is what we have right now. As a developer of a connector, with the following instructions, you should be able to build the catalog locally with your changes and test that your connector is available from a publicly accessible site, will install, and works as expected.
 
-This guide is for developers creating connectors for M2E. While we would like to fully streamline the process of testing and pushing connectors into the publicly available catalog, this is what we have right now. As a developer of a connector, with the following instructions, you should be able to build the catalog locally with your changes and test that your connector is available from a publicly accessible site, will install, and works as expected.
+## New Connector Addition Process
 
 ### Update the catalog with your entry
 
