@@ -362,25 +362,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/tesla/m2eclipse-subclipse</url>
       </overview>
     </catalogItem>
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.maven</categoryId>
-      <description>Embedded Maven Runtime version 3.0.3</description>
-      <groupId>maven</groupId>
-      <id>org.eclipse.m2e.discovery.maven-runtime-3.0.3</id>
-      <kind>maven</kind>
-      <license>EPL</license>
-      <name>maven.runtime.3.0.3</name>
-      <provider>Takari, Inc.</provider>
-      <p2>
-        <repositoryUrl>http://repository.takari.io:8081/nexus/content/sites/m2e.extras/m2eclipse-subclipse/0.13.0/N/0.13.0.201303011221/</repositoryUrl>
-        <iuId>org.sonatype.m2e.maven.runtime.3.0.3.feature.group</iuId>
-      </p2>
-      <overview>
-        <summary>Embedded Maven Runtime version 3.0.3</summary>
-        <url>http://www.sonatype.com/</url>
-      </overview>
-    </catalogItem>
-
 
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
@@ -1160,6 +1141,6 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
         <summary>m2e connector for Xtext Maven plugin</summary>
         <url> http://www.eclipse.org/Xtext/</url>
       </overview>
-    </catalogItem>
+    </catalogItem>    
   </catalogItems>
 </catalog>
