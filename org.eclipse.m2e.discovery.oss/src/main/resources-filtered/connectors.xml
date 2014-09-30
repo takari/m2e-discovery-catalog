@@ -739,13 +739,13 @@ http://objectledge.org/confluence/display/TOOLS/ckpackager-maven-plugin
           <iuId>me.gladwell.eclipse.m2e.android</iuId>
         </lifecycleMappingIU>
         <rootIU>
-          <iuId>com.android.ide.eclipse.adt.feature.group</iuId>
+          <iuId>com.android.ide.eclipse.adt.feature.feature.group</iuId>
         </rootIU>
         <rootIU>
-          <iuId>com.android.ide.eclipse.ddms.feature.group</iuId>
+          <iuId>com.android.ide.eclipse.ddms.feature.feature.group</iuId>
         </rootIU>
         <rootIU>
-          <iuId>com.android.ide.eclipse.traceview.feature.group</iuId>
+          <iuId>com.android.ide.eclipse.traceview.feature.feature.group</iuId>
         </rootIU>
       </p2>
       <overview>
