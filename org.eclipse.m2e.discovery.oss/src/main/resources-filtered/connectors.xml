@@ -870,5 +870,44 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>Maven Development Tools</summary>
       </overview>
     </catalogItem>
+
+    <!-- takari lifecycle and incrementalbuild -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.5,1.6</m2e-versions>
+      <description>Takari Lifecycle Support</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.takari-lifecycle</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>Takari Lifecycle Support</name>
+      <provider>Takari, Inc.</provider>
+      <p2>
+        <repositoryUrl>http://download.takari.io/eclipse/takari-lifecycle/</repositoryUrl>
+        <iuId>io.takari.m2e.lifecycle.feature.feature.group</iuId>
+        <rootIU>
+          <iuId>io.takari.m2e.lifecycle.feature.feature.group</iuId>
+        </rootIU>
+        <rootIU>
+          <iuId>io.takari.stats.m2e.feature.feature.group</iuId>
+        </rootIU>
+        <rootIU>
+          <iuId>org.eclipse.m2e.feature.feature.group</iuId>
+        </rootIU>
+        <rootIU>
+          <iuId>org.eclipse.m2e.logback.feature.feature.group</iuId>
+        </rootIU>
+        <lifecycleMappingIU>
+          <iuId>io.takari.m2e.incrementalbuild.core</iuId>
+        </lifecycleMappingIU>
+        <lifecycleMappingIU>
+          <iuId>io.takari.m2e.jdt.core</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Takari Lifecycle Support</summary>
+      </overview>
+    </catalogItem>
+
   </catalogItems>
 </catalog>
