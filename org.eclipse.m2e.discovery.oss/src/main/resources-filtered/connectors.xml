@@ -883,7 +883,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>Takari Lifecycle Support</name>
       <provider>Takari, Inc.</provider>
       <p2>
-        <repositoryUrl>http://download.takari.io/eclipse/takari-lifecycle/</repositoryUrl>
+        <repositoryUrl>https://download.takari.io/eclipse/takari-lifecycle/</repositoryUrl>
         <iuId>io.takari.m2e.lifecycle.feature.feature.group</iuId>
         <rootIU>
           <iuId>io.takari.m2e.lifecycle.feature.feature.group</iuId>

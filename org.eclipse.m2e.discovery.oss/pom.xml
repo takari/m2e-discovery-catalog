@@ -188,7 +188,7 @@
       <id>catalog-stage</id>
       <activation><activeByDefault>true</activeByDefault></activation>
       <properties>
-        <catalog.server-url>http://repository.takari.io:8081/nexus</catalog.server-url>      
+        <catalog.server-url>https://repository.takari.io</catalog.server-url>
         <!-- Name of the hosted repository -->
         <catalog.repo-name>m2e.discovery.stage</catalog.repo-name>
         <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
@@ -200,7 +200,7 @@
     <profile>
       <id>catalog-release</id>
       <properties>
-        <catalog.server-url>http://repository.takari.io:8081/nexus</catalog.server-url>      
+        <catalog.server-url>https://repository.takari.io</catalog.server-url>
         <!-- Name of the hosted repository -->
         <catalog.repo-name>m2e.discovery.release</catalog.repo-name>
         <catalog.repo-url-compressed>${catalog.server-url}/service/local/repositories/${catalog.repo-name}/content-compressed</catalog.repo-url-compressed>
