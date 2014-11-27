@@ -592,7 +592,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.5</m2e-versions>
+      <m2e-versions>1.5,1.6</m2e-versions>
       <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
       </description>
       <groupId>lifecycles</groupId>
@@ -602,9 +602,9 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e-apt</name>
       <provider>JBoss by Red Hat</provider>
       <p2>
-        <repositoryUrl>http://download.jboss.org/jbosstools/builds/staging/m2e-apt/all/repo/</repositoryUrl>
+        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/</repositoryUrl>
         <iuId>org.jboss.tools.maven.apt.feature.feature.group</iuId>
-        <iuVersion>1.1.0.201405210909</iuVersion>
+        <iuVersion>1.1.1.201411262015</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.jboss.tools.maven.apt.core</iuId>
         </lifecycleMappingIU>
