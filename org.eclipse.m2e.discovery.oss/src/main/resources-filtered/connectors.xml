@@ -641,7 +641,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>M2E Extension to ignore the mycila License plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-mycila-license</id>
@@ -652,7 +652,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.mycila-license.feature.feature.group</iuId>
-        <iuVersion>1.0.3</iuVersion>
+        <iuVersion>1.0.4</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.mycila-license</iuId>
         </lifecycleMappingIU>
@@ -665,7 +665,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>M2E Extension to ignore the Ning duplicate-finder plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-duplicate-finder</id>
@@ -676,7 +676,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.ning-duplicate-finder.feature.feature.group</iuId>
-        <iuVersion>1.0.3</iuVersion>
+        <iuVersion>1.0.4</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.ning-duplicate-finder</iuId>
         </lifecycleMappingIU>
@@ -689,7 +689,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>M2E Extension to ignore the Ning dependency-versions-check plugin in Maven POM files.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-ning-dependency-versions-check</id>
@@ -700,7 +700,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.ning-dependency-versions-check.feature.feature.group</iuId>
-        <iuVersion>1.0.3</iuVersion>
+        <iuVersion>1.0.4</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.ning-dependency-versions-check</iuId>
         </lifecycleMappingIU>
@@ -713,7 +713,31 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
+      <description>M2E Extension to ignore the basepom duplicate-finder plugin in Maven POM files.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-duplicate-finder</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-duplicate-finder</name>
+      <provider>basepom.org</provider>
+      <p2>
+        <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
+        <iuId>org.basepom.m2e.duplicate-finder.feature.feature.group</iuId>
+        <iuVersion>1.0.4</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.basepom.m2e.duplicate-finder</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e extension for the org.basepom duplicate-finder plugin</summary>
+        <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
+
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>M2E Extension for the org.basepom property-helper plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-property-helper</id>
@@ -724,7 +748,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.property-helper.feature.feature.group</iuId>
-        <iuVersion>1.0.3</iuVersion>
+        <iuVersion>1.0.4</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.property-helper</iuId>
         </lifecycleMappingIU>
