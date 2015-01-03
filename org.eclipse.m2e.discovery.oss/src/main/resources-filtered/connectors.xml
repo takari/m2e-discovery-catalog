@@ -932,7 +932,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>Takari Lifecycle Support</summary>
       </overview>
     </catalogItem>
-	<!-- m2e connector for jaxws-maven-plugin -->
+    <!-- m2e connector for jaxws-maven-plugin -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
