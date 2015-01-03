@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <catalog>
   <categories>
     <category>
@@ -932,6 +932,29 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>Takari Lifecycle Support</summary>
       </overview>
     </catalogItem>
+	<!-- m2e connector for jaxws-maven-plugin -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
+      <description>This connector will handle the 'wsimport','wsgen','wsimport-test' and 'wsgen-test' goals of the jaxws-maven-plugin</description>
+      <groupId>lifecycles</groupId>
+      <id>com.coderplus.m2e.jaxws.feature.group</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e connector for jaxws-maven-plugin</name>
+      <provider>CoderPlus</provider>
+      <p2>
+        <repositoryUrl>http://coderplus.com/m2e-update-sites/jaxws-maven-plugin/</repositoryUrl>
+        <iuId>com.coderplus.m2e.jaxws.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>com.coderplus.m2e.jaxwscore</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e connector for jaxws-maven-plugin</summary>
+        <url>https://github.com/coderplus/m2e-connector-for-jaxws-maven-plugin</url>
+      </overview>
+     </catalogItem>
     <!-- m2e connector for  maven-remote-resources-plugin -->
        <catalogItem>
          <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -952,6 +975,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
          </p2>
          <overview>
            <summary>m2e connector for maven-remote-resources-plugin</summary>
+           <url>https://github.com/coderplus/m2e-connector-for-maven-remote-resources-plugin</url>
          </overview>
        </catalogItem>
        <!-- m2e connector for yuicompressor-maven-plugin -->
@@ -974,6 +998,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
          </p2>
          <overview>
            <summary>m2e connector for yuicompressor-maven-plugin</summary>
+           <url>https://github.com/coderplus/m2e-connector-yuicompressor-maven-plugin</url>
          </overview>
     </catalogItem>
 
