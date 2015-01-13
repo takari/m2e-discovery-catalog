@@ -450,7 +450,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://rgladwell.github.com/m2e-android/updates/</repositoryUrl>
         <iuId>me.gladwell.eclipse.m2e.android.feature.feature.group</iuId>
-        <iuVersion>1.2.0</iuVersion>
+        <iuVersion>1.2.1</iuVersion>
         <lifecycleMappingIU>
           <iuId>me.gladwell.eclipse.m2e.android</iuId>
         </lifecycleMappingIU>
