@@ -282,7 +282,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>Applies configuration from the maven-checkstyle-plugin to the Eclipse Checkstyle plugin. Disables execution of the maven-checkstyle-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2echeckstyle</id>
@@ -306,7 +306,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>applies configuration from the maven-pmd-plugin to the Eclipse PMD plugin. Disables execution of the maven-pmd-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2epmd</id>
@@ -330,7 +330,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>Applies configuration from the maven-findbugs-plugin to the Eclipse Findbugs plugin. Disables execution of the maven-findbugs-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2efindbugs</id>
