@@ -544,7 +544,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>m2e connector for maven-wro4j-plugin</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wro4j</id>
@@ -617,7 +617,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>M2E connector for the Eclipse JDT Compiler</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-jdt-compiler</id>
@@ -807,7 +807,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>m2e connector for the Maven Dependency Plugin</description>
       <groupId>lifecycles</groupId>
       <id>com.ianbrandt.tools.m2e.discovery.lifecyclemapping.maven-dependency-plugin</id>
