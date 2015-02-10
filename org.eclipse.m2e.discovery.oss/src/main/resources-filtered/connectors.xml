@@ -218,7 +218,31 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://www.eclipse.org/m2e-wtp/</url>
       </overview>
     </catalogItem>
-
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.6</m2e-versions>
+      <description>m2e-wtp provides a set of connectors used for the configuration of Java EE projects in WTP</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp.120</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e-wtp : Maven Integration for WTP (Incubation)</name>
+      <provider>Eclipse.org</provider>
+      <p2>
+        <repositoryUrl>http://download.eclipse.org/m2e-wtp/milestones/mars/1.2.0/</repositoryUrl>
+        <iuId>org.eclipse.m2e.wtp.feature.feature.group</iuId>
+        <lifecycleMappingIU>
+          <iuId>org.eclipse.m2e.wtp</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>Maven Integration for Eclipse WTP (a.k.a m2e-wtp) aims at providing a tight integration between Maven Integration for Eclipse (a.k.a m2e) and the Eclipse Web Tools Project (WTP).
+          m2e-wtp provides a set of m2e connectors used for the configuration of Java EE projects in WTP.
+          m2e-wtp also brings some advanced Maven features to the Eclipse environment such as overlays of workspace project and .war archives dependencies and on-the-fly resource filtering.
+          Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by translating your Java EE eclipse project settings into maven plugin configuration.</summary>
+          <url>https://www.eclipse.org/m2e-wtp/</url>
+        </overview>
+      </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <m2e-versions>1.4,1.5</m2e-versions>
