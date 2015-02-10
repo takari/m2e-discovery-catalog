@@ -33,7 +33,7 @@
       </icon>
     </category>
   </categories>
-  
+
   <catalogItems>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -79,7 +79,7 @@
         <summary>antlr</summary>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -113,7 +113,7 @@
       <name>mavenarchiver pomproperties</name>
       <provider>Takari, Inc.</provider>
       <p2>
-        <repositoryUrl>${connectorUrl}/m2eclipse-mavenarchiver/0.16.0/N/LATEST/</repositoryUrl>
+        <repositoryUrl>${connectorUrl}/m2eclipse-mavenarchiver/0.17.0/N/LATEST/</repositoryUrl>
         <iuId>org.sonatype.m2e.mavenarchiver.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.m2e.mavenarchiver</iuId>
@@ -123,7 +123,7 @@
         <summary>mavenarchiver basic support</summary>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.5,1.6</m2e-versions>
@@ -145,7 +145,7 @@
         <summary>modello</summary>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.5,1.6</m2e-versions>
@@ -189,7 +189,7 @@
       <overview>
         <summary>plexus-annotations</summary>
       </overview>
-    </catalogItem>    
+    </catalogItem>
 
     <!-- WTP -->
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
@@ -249,7 +249,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <license>EPL</license>
       <name>m2e-subversive</name>
       <provider>Takari, Inc.</provider>
-      <p2>      
+      <p2>
         <repositoryUrl>${connectorUrl}/m2eclipse-subversive/0.13.0/N/0.13.0.201302121311/</repositoryUrl>
         <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
       </p2>
@@ -258,7 +258,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/tesla/m2eclipse-subversive</url>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
       <description>Maven SCM Handler for Subclipse</description>
@@ -303,7 +303,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/m2e-code-quality/m2e-code-quality</url>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -327,7 +327,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/m2e-code-quality/m2e-code-quality</url>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -433,9 +433,9 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       </overview>
     </catalogItem>
 
-    <!-- 
+    <!--
       initial https://bugs.eclipse.org/bugs/show_bug.cgi?id=353529
-      version 0.4.0 https://bugs.eclipse.org/bugs/show_bug.cgi?id=363574 
+      version 0.4.0 https://bugs.eclipse.org/bugs/show_bug.cgi?id=363574
     -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -468,8 +468,8 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>Android for Maven Eclipse</summary>
         <url>http://rgladwell.github.com/m2e-android</url>
       </overview>
-    </catalogItem>  
-    
+    </catalogItem>
+
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=357118 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -870,7 +870,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>m2e connector for Xtext Maven plugin</summary>
         <url> http://www.eclipse.org/Xtext/</url>
       </overview>
-    </catalogItem>    
+    </catalogItem>
 
     <!-- maven development tools -->
     <catalogItem>
