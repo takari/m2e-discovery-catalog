@@ -282,7 +282,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/tesla/m2eclipse-subversive</url>
       </overview>
     </catalogItem>
-    
+
     <catalogItem>
         <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
         <description>Subversive (3.0+) SVN Integration for the M2E Project</description>
@@ -298,7 +298,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
             <iuId>org.eclipse.team.svn.m2e.feature.group</iuId>
       </p2>
       <overview>
-        <summary>Maven SCM Handler for Subversive</summary>
+        <summary>Maven SCM Handler for Subversive 3.0</summary>
         <url>http://www.eclipse.org/subversive/</url>
       </overview>
     </catalogItem>
