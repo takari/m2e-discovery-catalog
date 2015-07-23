@@ -290,7 +290,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <groupId>extras</groupId>
         <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive</id>
         <kind>extras</kind>
-        <license>Eclipse Public License - v1.0</license>
+        <license>EPL</license>
         <name>m2e-subversive</name>
         <provider>Eclipse.org</provider>
         <p2>
@@ -298,7 +298,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
             <iuId>org.eclipse.team.svn.m2e.feature.group</iuId>
       </p2>
       <overview>
-        <summary>Integration with M2E http://www.eclipse.org/m2e Installation is possible only if M2E is already installed or installed in one step with Eclipse Subversive.</summary>
+        <summary>Maven SCM Handler for Subversive</summary>
         <url>http://www.eclipse.org/subversive/</url>
       </overview>
     </catalogItem>
