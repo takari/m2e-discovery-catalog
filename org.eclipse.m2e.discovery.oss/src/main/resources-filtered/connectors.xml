@@ -379,7 +379,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <!-- dependencypath -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>m2e connector for Dependency Path Maven plugins, https://github.com/bitstrings/dependencypath-maven-plugin</description>
       <groupId>lifecycles</groupId>
 
@@ -405,7 +405,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <!-- jaxb2 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>m2e connector for Jaxb2 Maven plugins,
         http://mojo.codehaus.org/jaxb2-maven-plugin and
         http://java.net/projects/maven-jaxb2-plugin/pages/Home
@@ -434,7 +434,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
     <!-- xmlbeans -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>m2e connector for XmlBeans Maven plugin, http://mojo.codehaus.org/xmlbeans-maven-plugin</description>
       <groupId>lifecycles</groupId>
 
