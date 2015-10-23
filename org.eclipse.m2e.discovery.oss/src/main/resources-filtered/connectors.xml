@@ -717,7 +717,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.mycila-license.feature.feature.group</iuId>
-        <iuVersion>1.0.4</iuVersion>
+        <iuVersion>1.0.5</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.mycila-license</iuId>
         </lifecycleMappingIU>
@@ -741,7 +741,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.ning-duplicate-finder.feature.feature.group</iuId>
-        <iuVersion>1.0.4</iuVersion>
+        <iuVersion>1.0.5</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.ning-duplicate-finder</iuId>
         </lifecycleMappingIU>
@@ -765,7 +765,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.ning-dependency-versions-check.feature.feature.group</iuId>
-        <iuVersion>1.0.4</iuVersion>
+        <iuVersion>1.0.5</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.ning-dependency-versions-check</iuId>
         </lifecycleMappingIU>
@@ -789,7 +789,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.duplicate-finder.feature.feature.group</iuId>
-        <iuVersion>1.0.4</iuVersion>
+        <iuVersion>1.0.5</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.duplicate-finder</iuId>
         </lifecycleMappingIU>
@@ -813,7 +813,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <p2>
         <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
         <iuId>org.basepom.m2e.property-helper.feature.feature.group</iuId>
-        <iuVersion>1.0.4</iuVersion>
+        <iuVersion>1.0.5</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.basepom.m2e.property-helper</iuId>
         </lifecycleMappingIU>
