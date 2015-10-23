@@ -1092,5 +1092,28 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       </overview>
     </catalogItem>
 
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
+      <description>M2E Extension to ignore the Apache Axis2 wsdl2code plugin in Maven POM files.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apache-axis2-wsdl2code</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-apache-axis2-wsdl2code</name>
+      <provider>basepom.org</provider>
+      <p2>
+        <repositoryUrl>http://basepom.github.io/basepom-m2e/update-site/latest/</repositoryUrl>
+        <iuId>org.basepom.m2e.apache-axis2-wsdl2code.feature.feature.group</iuId>
+        <iuVersion>1.0.5</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>org.basepom.m2e.apache-axis2-wsdl2code</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e extension for Apache Axis2 wsdl2code plugin</summary>
+        <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
   </catalogItems>
 </catalog>
