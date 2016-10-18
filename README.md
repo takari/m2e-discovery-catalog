@@ -37,7 +37,7 @@ Edit the connectors.xml file with your catalog entry which is [here][1].
 In the top level of the Git repository execute the following command:
 
 ```
-mvn clean package
+mvn -P catalog-stage clean package
 ```
 
 This will create the catalog and validate that all the update sites specified are accessible. This will also produce two catalog files that you can use for testing locally with only the file system.
