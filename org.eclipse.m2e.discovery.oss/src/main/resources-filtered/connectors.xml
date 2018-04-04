@@ -1009,7 +1009,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e connector for jaxws-maven-plugin</name>
       <provider>CoderPlus</provider>
       <p2>
-        <repositoryUrl>http://coderplus.com/m2e-update-sites/jaxws-maven-plugin/</repositoryUrl>
+        <repositoryUrl>https://coderplus.github.io/m2e-connector-for-jaxws-maven-plugin/</repositoryUrl>
         <iuId>com.coderplus.m2e.jaxws.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>com.coderplus.m2e.jaxwscore</iuId>
@@ -1032,7 +1032,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
          <name>m2e connector for maven-remote-resources-plugin</name>
          <provider>CoderPlus</provider>
           <p2>
-                 <repositoryUrl>http://coderplus.com/m2e-update-sites/maven-remote-resources-plugin/</repositoryUrl>
+                 <repositoryUrl>https://coderplus.github.io/m2e-connector-for-maven-remote-resources-plugin/</repositoryUrl>
                  <iuId>com.coderplus.m2e.remoteresourcesfeature.feature.group</iuId>
                  <lifecycleMappingIU>
                    <iuId>com.coderplus.m2e.remoteresourcescore</iuId>
@@ -1055,7 +1055,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
          <name>m2e connector for yuicompressor-maven-plugin</name>
          <provider>CoderPlus</provider>
           <p2>
-                 <repositoryUrl>http://coderplus.com/m2e-update-sites/yuicompressor-maven-plugin/</repositoryUrl>
+                 <repositoryUrl>https://coderplus.github.io/m2e-connector-yuicompressor-maven-plugin/</repositoryUrl>
                  <iuId>com.coderplus.m2e.yuicompressorfeature.feature.group</iuId>
                  <lifecycleMappingIU>
                    <iuId>com.coderplus.m2e.yuicompressorcore</iuId>
