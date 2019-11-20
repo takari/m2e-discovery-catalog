@@ -1,0 +1,37 @@
+name: Building and deploying the catalog
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v1
+
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml -X
+    
+    - name: Move catalog jars to public directory
+      if: success()
+      run: |
+        mkdir -p public/catalogs
+        cp org.eclipse.m2e.discovery.oss/target/*.jar ./public/catalogs
+
+    - name: Deploy to GitHub pages
+      if: success()
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public
+      with:
+        keepFiles: true

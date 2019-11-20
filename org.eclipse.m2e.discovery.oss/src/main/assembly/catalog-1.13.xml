@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <assembly>
-  <id>catalog-1.4</id>
+  <id>catalog-1.13</id>
   <formats>
     <format>jar</format>
   </formats>
   <includeBaseDirectory>false</includeBaseDirectory>
   <fileSets>
     <fileSet>
-      <directory>${project.build.directory}/catalog-1.4</directory>
+      <directory>${project.build.directory}/catalog-1.13</directory>
       <outputDirectory>/</outputDirectory>
     </fileSet>
     <fileSet>

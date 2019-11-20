@@ -8,9 +8,7 @@
     <fileSet>
       <directory>${project.build.directory}</directory>
       <includes>
-        <include>${project.artifactId}-catalog-1.4.jar</include>
-        <include>${project.artifactId}-catalog-1.5.jar</include>
-        <include>${project.artifactId}-catalog-1.6.jar</include>
+        <include>${project.artifactId}-catalog-1.13.jar</include>
       </includes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
