@@ -21,7 +21,9 @@
 
    This assumes nexus-pro with nexus-unpack-plugin  
    -->
-
+  <properties>
+    <connectorUrl>http://repo1.maven.org/maven2/.m2e/connectors</connectorUrl>
+  </properties>
   <build>
     <resources>
       <resource>
@@ -37,7 +39,7 @@
       <resource>
         <directory>src/main/resources-filtered</directory>
         <filtering>true</filtering>
-      </resource>      
+      </resource>
     </resources>
 
     <plugins>
@@ -52,7 +54,7 @@
               <goal>resources</goal>
             </goals>
           </execution>
-        </executions>        
+        </executions>
       </plugin>
     
       <plugin>
@@ -68,35 +70,14 @@
         <version>0.4.1</version>
         <executions>
           <execution>
-            <id>catalog-1.4</id>
+            <id>catalog-1.13</id>
             <goals>
               <goal>generate</goal>
             </goals>
             <configuration>
               <descriptor>${project.build.directory}/classes/connectors.xml</descriptor>
-              <outputdir>${project.build.directory}/catalog-1.4</outputdir>
-              <m2eversion>1.4</m2eversion>
-            </configuration>
-          </execution>
-          <execution>
-            <id>catalog-1.5</id>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-            <configuration>
-              <descriptor>${project.build.directory}/classes/connectors.xml</descriptor>
-              <outputdir>${project.build.directory}/catalog-1.5</outputdir>
-              <m2eversion>1.5</m2eversion>
-            </configuration>
-          </execution>
-          <execution>
-            <id>catalog-1.6</id>
-            <goals>
-              <goal>generate</goal>
-            </goals>
-            <configuration>
-              <descriptor>${project.build.directory}/classes/connectors.xml</descriptor>
-              <outputdir>${project.build.directory}/catalog-1.6</outputdir>
+              <outputdir>${project.build.directory}/catalog-1.13</outputdir>
+              <!-- Need to update/redeploy https://github.com/takari/m2eclipse-discovery/ to support m2e > 1.6 -->
               <m2eversion>1.6</m2eversion>
             </configuration>
           </execution>
@@ -109,9 +90,7 @@
         <version>2.4</version>
         <configuration>
           <descriptors>
-            <descriptor>src/main/assembly/catalog-1.4.xml</descriptor>
-            <descriptor>src/main/assembly/catalog-1.5.xml</descriptor>
-            <descriptor>src/main/assembly/catalog-1.6.xml</descriptor>
+            <descriptor>src/main/assembly/catalog-1.13.xml</descriptor>
             <descriptor>src/main/assembly/assembly.xml</descriptor>
           </descriptors>
         </configuration>
@@ -186,7 +165,7 @@
   <profiles>
     <profile>
       <id>catalog-stage</id>
-      <activation><activeByDefault>true</activeByDefault></activation>
+      <activation><activeByDefault>false</activeByDefault></activation>
       <properties>
         <catalog.server-url>https://repository.takari.io</catalog.server-url>
         <!-- Name of the hosted repository -->

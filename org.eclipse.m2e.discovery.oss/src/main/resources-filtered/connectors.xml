@@ -58,6 +58,7 @@
         <url>http://eclipse.org/tycho/</url>
       </overview>
     </catalogItem>
+
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -195,7 +196,7 @@
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5</m2e-versions>
+      <m2e-versions>1.6</m2e-versions>
       <description>m2e-wtp provides a set of connectors used for the configuration of Java EE projects in WTP</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp</id>
@@ -204,32 +205,7 @@
       <name>m2e-wtp : Maven Integration for WTP (Incubation)</name>
       <provider>Eclipse.org</provider>
       <p2>
-        <repositoryUrl>http://download.eclipse.org/m2e-wtp/releases/</repositoryUrl>
-        <iuId>org.eclipse.m2e.wtp.feature.feature.group</iuId>
-        <lifecycleMappingIU>
-          <iuId>org.eclipse.m2e.wtp</iuId>
-        </lifecycleMappingIU>
-      </p2>
-      <overview>
-        <summary>Maven Integration for Eclipse WTP (a.k.a m2e-wtp) aims at providing a tight integration between Maven Integration for Eclipse (a.k.a m2e) and the Eclipse Web Tools Project (WTP).
-m2e-wtp provides a set of m2e connectors used for the configuration of Java EE projects in WTP.
-m2e-wtp also brings some advanced Maven features to the Eclipse environment such as overlays of workspace project and .war archives dependencies and on-the-fly resource filtering.
-Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by translating your Java EE eclipse project settings into maven plugin configuration.</summary>
-        <url>https://www.eclipse.org/m2e-wtp/</url>
-      </overview>
-    </catalogItem>
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.6</m2e-versions>
-      <description>m2e-wtp provides a set of connectors used for the configuration of Java EE projects in WTP</description>
-      <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-wtp.120</id>
-      <kind>lifecycles</kind>
-      <license>EPL</license>
-      <name>m2e-wtp : Maven Integration for WTP (Incubation)</name>
-      <provider>Eclipse.org</provider>
-      <p2>
-        <repositoryUrl>http://download.eclipse.org/m2e-wtp/milestones/mars/1.2.0/</repositoryUrl>
+        <repositoryUrl>http://download.eclipse.org/m2e-wtp/releases/1.4</repositoryUrl>
         <iuId>org.eclipse.m2e.wtp.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.eclipse.m2e.wtp</iuId>
@@ -262,27 +238,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/tesla/m2eclipse-egit</url>
       </overview>
     </catalogItem>
-
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
-      <description>Maven SCM Handler for Subversive</description>
-      <m2e-versions>1.4,1.5</m2e-versions>
-      <groupId>extras</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive</id>
-      <kind>extras</kind>
-      <license>EPL</license>
-      <name>m2e-subversive</name>
-      <provider>Takari, Inc.</provider>
-      <p2>
-        <repositoryUrl>${connectorUrl}/m2eclipse-subversive/0.13.0/N/0.13.0.201302121311/</repositoryUrl>
-        <iuId>org.sonatype.m2e.subversive.feature.feature.group</iuId>
-      </p2>
-      <overview>
-        <summary>Maven SCM Handler for Subversive</summary>
-        <url>https://github.com/tesla/m2eclipse-subversive</url>
-      </overview>
-    </catalogItem>
-
     <catalogItem>
         <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
         <description>Subversive (3.0+) SVN Integration for the M2E Project</description>
@@ -322,7 +277,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/tesla/m2eclipse-subclipse</url>
       </overview>
     </catalogItem>
-
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -395,7 +349,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/m2e-code-quality/m2e-code-quality</url>
       </overview>
     </catalogItem>
-
     <!-- dependencypath -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -421,8 +374,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>http://bitstrings.org</url>
       </overview>
     </catalogItem>
-
-    <!-- jaxb2 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -450,14 +401,12 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>http://bitstrings.org</url>
       </overview>
     </catalogItem>
-
-    <!-- xmlbeans -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
       <description>m2e connector for XmlBeans Maven plugin, http://mojo.codehaus.org/xmlbeans-maven-plugin</description>
       <groupId>lifecycles</groupId>
-
+      
       <id>org.eclipse.m2e.discovery.lifecycles.org.bitstrings.eclipse.m2e.connectors.xmlbeans</id>
       <kind>lifecycles</kind>
       <license>EPL v1.0</license>
@@ -513,66 +462,20 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>http://rgladwell.github.com/m2e-android</url>
       </overview>
     </catalogItem>
-
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=357118 -->
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>Groovy-Eclipse m2e configurator</description>
-      <groupId>lifecycles</groupId>
-      <m2e-versions>1.4</m2e-versions>
-      <id>org.codehaus.groovy.m2eclipse.e43</id>
-      <kind>lifecycles</kind>
-      <license>EPL</license>
-      <name>Groovy-Eclipse</name>
-      <provider>the Codehaus</provider>
-      <p2>
-        <repositoryUrl>http://dist.springsource.org/release/GRECLIPSE/e4.3</repositoryUrl>
-        <iuId>org.codehaus.groovy.m2eclipse.feature.feature.group</iuId>
-        <iuVersion>2.9.0.xx-201407142051-e43-RELEASE</iuVersion>
-        <lifecycleMappingIU>
-          <iuId>org.codehaus.groovy.m2eclipse</iuId>
-        </lifecycleMappingIU>
-      </p2>
-      <overview>
-        <summary>Maven Integration for Groovy-Eclipse</summary>
-        <url>https://github.com/groovy/groovy-eclipse</url>
-      </overview>
-    </catalogItem>
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <description>Groovy-Eclipse m2e configurator</description>
-      <groupId>lifecycles</groupId>
-      <m2e-versions>1.5</m2e-versions>
-      <id>org.codehaus.groovy.m2eclipse.e44</id>
-      <kind>lifecycles</kind>
-      <license>EPL</license>
-      <name>Groovy-Eclipse</name>
-      <provider>the Codehaus</provider>
-      <p2>
-        <repositoryUrl>http://dist.springsource.org/release/GRECLIPSE/e4.4</repositoryUrl>
-        <iuId>org.codehaus.groovy.m2eclipse.feature.feature.group</iuId>
-        <iuVersion>2.9.0.xx-201407142235-e44-RELEASE</iuVersion>
-        <lifecycleMappingIU>
-          <iuId>org.codehaus.groovy.m2eclipse</iuId>
-        </lifecycleMappingIU>
-      </p2>
-      <overview>
-        <summary>Maven Integration for Groovy-Eclipse</summary>
-        <url>https://github.com/groovy/groovy-eclipse</url>
-      </overview>
-    </catalogItem>
+    <!--
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>Groovy-Eclipse m2e configurator</description>
       <groupId>lifecycles</groupId>
       <m2e-versions>1.6</m2e-versions>
-      <id>org.codehaus.groovy.m2eclipse.e45</id>
+      <id>org.codehaus.groovy.m2eclipse</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
       <name>Groovy-Eclipse</name>
       <provider>Groovy-Eclipse</provider>
       <p2>
-        <repositoryUrl>http://dist.springsource.org/snapshot/GRECLIPSE/e4.5</repositoryUrl>
+        <repositoryUrl>https://dist.springsource.org/snapshot/GRECLIPSE/e4.14/</repositoryUrl>
         <iuId>org.codehaus.groovy.m2eclipse.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.codehaus.groovy.m2eclipse</iuId>
@@ -583,6 +486,8 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/groovy/groovy-eclipse</url>
       </overview>
     </catalogItem>
+  -->
+  <!--
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <description>AspectJ m2e configurator</description>
@@ -606,7 +511,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>http://eclipse.org/ajdt</url>
       </overview>
     </catalogItem>
-
+  -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -618,7 +523,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e connector for maven-wro4j-plugin</name>
       <provider>JBoss by Red Hat</provider>
       <p2>
-        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-wro4j/</repositoryUrl>
+        <repositoryUrl>https://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-wro4j/1.1.0-2014-06-25_06-16-31-H26/</repositoryUrl>
         <iuId>org.jboss.tools.m2e.wro4j.feature.feature.group</iuId>
         <iuVersion>1.1.0.201406251020</iuVersion>
         <lifecycleMappingIU>
@@ -630,34 +535,9 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/jbosstools/m2e-wro4j</url>
       </overview>
     </catalogItem>
-
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4</m2e-versions>
-      <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
-      </description>
-      <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-apt-14</id>
-      <kind>lifecycles</kind>
-      <license>EPL</license>
-      <name>m2e-apt</name>
-      <provider>JBoss by Red Hat</provider>
-      <p2>
-        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/</repositoryUrl>
-        <iuId>org.jboss.tools.maven.apt.feature.feature.group</iuId>
-        <iuVersion>1.0.1.201209200721</iuVersion>
-        <lifecycleMappingIU>
-          <iuId>org.jboss.tools.maven.apt.core</iuId>
-        </lifecycleMappingIU>
-      </p2>
-      <overview>
-        <summary>Adds support for automatic Annotation Processing configuration from maven-compiler-plugin and maven-processor-plugin. Annotation Processing is disabled by default in the workspace, it can be enabled in Window > Preferences > Maven > Annotation Processing</summary>
-        <url>https://github.com/jbosstools/m2e-apt</url>
-      </overview>
-    </catalogItem>
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.5,1.6</m2e-versions>
+      <m2e-versions>1.6</m2e-versions>
       <description>Maven Integration for Eclipse JDT Annotation Processor Toolkit. m2e-apt must be enabled in Window > Preferences > Maven > Annotation Processing.
       </description>
       <groupId>lifecycles</groupId>
@@ -667,9 +547,8 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e-apt</name>
       <provider>JBoss by Red Hat</provider>
       <p2>
-        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/</repositoryUrl>
+        <repositoryUrl>https://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-apt/1.5.3-2019-11-08_11-04-22-H22/</repositoryUrl>
         <iuId>org.jboss.tools.maven.apt.feature.feature.group</iuId>
-        <iuVersion>1.1.1.201411262015</iuVersion>
         <lifecycleMappingIU>
           <iuId>org.jboss.tools.maven.apt.core</iuId>
         </lifecycleMappingIU>
@@ -677,30 +556,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <overview>
         <summary>Adds support for automatic Annotation Processing configuration from maven-compiler-plugin and maven-processor-plugin. Annotation Processing is disabled by default in the workspace, it can be enabled in Window > Preferences > Maven > Annotation Processing</summary>
         <url>https://github.com/jbosstools/m2e-apt</url>
-      </overview>
-    </catalogItem>
-
-    <catalogItem>
-      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.4,1.5,1.6</m2e-versions>
-      <description>M2E connector for the Eclipse JDT Compiler</description>
-      <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-jdt-compiler</id>
-      <kind>lifecycles</kind>
-      <license>EPL</license>
-      <name>m2e-jdt-compiler</name>
-      <provider>JBoss by Red Hat</provider>
-      <p2>
-        <repositoryUrl>http://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-jdt-compiler/</repositoryUrl>
-        <iuId>org.jboss.tools.m2e.jdt.feature.feature.group</iuId>
-        <iuVersion>1.0.1.201209200903</iuVersion>
-        <lifecycleMappingIU>
-          <iuId>org.jboss.tools.m2e.jdt.core</iuId>
-        </lifecycleMappingIU>
-      </p2>
-      <overview>
-        <summary>This m2e connector adds support for maven-compiler-plugin with compilerId=eclipse and compilerId=jdt (i.e. Eclipse JDT compiler)</summary>
-        <url>https://github.com/jbosstools/m2e-jdt-compiler</url>
       </overview>
     </catalogItem>
 
@@ -936,8 +791,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url> http://www.eclipse.org/Xtext/</url>
       </overview>
     </catalogItem>
-
-    <!-- maven development tools -->
+    <!-- maven development tools 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.6</m2e-versions>
@@ -949,7 +803,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>Maven Development Tools</name>
       <provider>Igor Fedorenko</provider>
       <p2>
-        <repositoryUrl>http://ifedorenko.github.com/m2e-extras/</repositoryUrl>
+        <repositoryUrl>https://ifedorenko.github.com/m2e-extras/</repositoryUrl>
         <iuId>com.ifedorenko.m2e.mavendev.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>com.ifedorenko.m2e.mavendev</iuId>
@@ -959,8 +813,9 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>Maven Development Tools</summary>
       </overview>
     </catalogItem>
-
-    <!-- takari lifecycle and incrementalbuild -->
+-->
+    <!-- takari lifecycle and incrementalbuild. 
+    download.takari.io is down for the moment 
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.5,1.6</m2e-versions>
@@ -997,6 +852,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <summary>Takari Lifecycle Support</summary>
       </overview>
     </catalogItem>
+    -->
     <!-- m2e connector for jaxws-maven-plugin -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -1020,7 +876,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
         <url>https://github.com/coderplus/m2e-connector-for-jaxws-maven-plugin</url>
       </overview>
      </catalogItem>
-    <!-- m2e connector for  maven-remote-resources-plugin -->
        <catalogItem>
          <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
          <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -1043,7 +898,6 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
            <url>https://github.com/coderplus/m2e-connector-for-maven-remote-resources-plugin</url>
          </overview>
        </catalogItem>
-       <!-- m2e connector for yuicompressor-maven-plugin -->
        <catalogItem>
          <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
          <m2e-versions>1.4,1.5,1.6</m2e-versions>
@@ -1065,10 +919,9 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
            <summary>m2e connector for yuicompressor-maven-plugin</summary>
            <url>https://github.com/coderplus/m2e-connector-yuicompressor-maven-plugin</url>
          </overview>
-    </catalogItem>
-
-    <!-- m2e connector for org.codehaus.mojo:axistools-maven-plugin -->
-    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=350909 -->
+        </catalogItem>
+      <!-- m2e connector for org.codehaus.mojo:axistools-maven-plugin -->
+      <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=350909 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>

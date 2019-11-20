@@ -18,9 +18,9 @@
   </modules>
 
   <properties>
-    <tycho-version>1.0.0</tycho-version>
+    <tycho-version>1.5.1</tycho-version>
 
-    <m2e-core.url>http://download.eclipse.org/technology/m2e/releases/1.5</m2e-core.url>
+    <m2e-core.url>http://download.eclipse.org/technology/m2e/releases/1.13</m2e-core.url>
   </properties>
 
   <build>
@@ -58,8 +58,8 @@
           <artifactId>maven-osgi-compiler-plugin</artifactId>
           <version>${tycho-version}</version>
           <configuration>
-            <source>1.5</source>
-            <target>1.5</target>
+            <source>1.8</source>
+            <target>1.8</target>
           </configuration>
         </plugin>
         <plugin>
@@ -71,7 +71,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>2.6</version>
+          <version>3.1.0</version>
         </plugin>
       </plugins>
     </pluginManagement>
