@@ -254,7 +254,7 @@ Finally, m2e-wtp helps you convert your legacy Eclipse projects to Maven, by tra
       <name>m2e-egit</name>
       <provider>Takari, Inc.</provider>
       <p2>
-        <repositoryUrl>${connectorUrl}/m2eclipse-egit/0.14.0/N/LATEST/</repositoryUrl>
+        <repositoryUrl>${connectorUrl}/m2eclipse-egit/0.15.1/N/LATEST/</repositoryUrl>
         <iuId>org.sonatype.m2e.egit.feature.feature.group</iuId>
       </p2>
       <overview>
