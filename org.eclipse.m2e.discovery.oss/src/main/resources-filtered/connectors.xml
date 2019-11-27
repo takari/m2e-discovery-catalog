@@ -32,6 +32,17 @@
         <path>images/extras-48.png</path>
       </icon>
     </category>
+    <category>
+      <id>org.eclipse.m2e.discovery.category.extras</id>
+      <name>Extras</name>
+      <description>Additional extensions enhancing m2e</description>
+      <relevance>5</relevance>
+      <icon>
+        <size>48</size>
+        <path>images/extras-48.png</path>
+      </icon>
+      <groupId>extras</groupId>
+    </category>
   </categories>
 
   <catalogItems>
@@ -966,6 +977,24 @@
       <overview>
         <summary>M2E extension for the Apache axis2-wsdl2code plugin. It allows for automatic generation of source code and resources from the WSDL files and adds the generated source code folders to the Java build path.</summary>
         <url>https://github.com/basepom/basepom-m2e</url>
+      </overview>
+    </catalogItem>
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.extras</categoryId>
+      <m2e-versions>1.6</m2e-versions>
+      <description>Maven launch participant enabling colored output in the console</description>
+      <groupId>extras</groupId>
+      <id>org.eclipse.m2e.discovery.extras.m2e-chromatic</id>
+      <kind>extras</kind>
+      <license>EPL</license>
+      <name>m2e-chromatic</name>
+      <provider>Sidespin</provider>
+      <p2>
+        <repositoryUrl>https://sidespin.github.io/m2e-chromatic/update/</repositoryUrl>
+        <iuId>m2e.chromatic.feature.feature.group</iuId>
+      </p2>
+      <overview>
+        <summary>Maven launch participant enabling colored output when the ANSI Escape in Console plugin is installed.</summary>
       </overview>
     </catalogItem>
   </catalogItems>
