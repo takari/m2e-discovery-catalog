@@ -825,8 +825,7 @@
       </overview>
     </catalogItem>
 -->
-    <!-- takari lifecycle and incrementalbuild. 
-    download.takari.io is down for the moment 
+    <!-- takari lifecycle and incrementalbuild. -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.5,1.6</m2e-versions>
@@ -838,7 +837,7 @@
       <name>Takari Lifecycle Support</name>
       <provider>Takari, Inc.</provider>
       <p2>
-        <repositoryUrl>https://download.takari.io/eclipse/takari-lifecycle/</repositoryUrl>
+        <repositoryUrl>${connectorUrl}/m2eclipse-takari-lifecycle/0.1.0/N/LATEST/</repositoryUrl>
         <iuId>io.takari.m2e.lifecycle.feature.feature.group</iuId>
         <rootIU>
           <iuId>io.takari.m2e.lifecycle.feature.feature.group</iuId>
@@ -863,7 +862,6 @@
         <summary>Takari Lifecycle Support</summary>
       </overview>
     </catalogItem>
-    -->
     <!-- m2e connector for jaxws-maven-plugin -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
