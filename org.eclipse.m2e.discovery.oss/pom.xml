@@ -22,7 +22,7 @@
    This assumes nexus-pro with nexus-unpack-plugin  
    -->
   <properties>
-    <connectorUrl>http://repo1.maven.org/maven2/.m2e/connectors</connectorUrl>
+    <connectorUrl>https://repo1.maven.org/maven2/.m2e/connectors</connectorUrl>
   </properties>
   <build>
     <resources>
