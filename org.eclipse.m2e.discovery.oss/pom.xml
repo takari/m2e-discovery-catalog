@@ -70,13 +70,13 @@
         <version>0.4.1</version>
         <executions>
           <execution>
-            <id>catalog-1.13</id>
+            <id>catalog-1.14</id>
             <goals>
               <goal>generate</goal>
             </goals>
             <configuration>
               <descriptor>${project.build.directory}/classes/connectors.xml</descriptor>
-              <outputdir>${project.build.directory}/catalog-1.13</outputdir>
+              <outputdir>${project.build.directory}/catalog-1.14</outputdir>
               <!-- Need to update/redeploy https://github.com/takari/m2eclipse-discovery/ to support m2e > 1.6 -->
               <m2eversion>1.6</m2eversion>
             </configuration>
@@ -90,7 +90,7 @@
         <version>2.4</version>
         <configuration>
           <descriptors>
-            <descriptor>src/main/assembly/catalog-1.13.xml</descriptor>
+            <descriptor>src/main/assembly/catalog-1.14.xml</descriptor>
             <descriptor>src/main/assembly/assembly.xml</descriptor>
           </descriptors>
         </configuration>
