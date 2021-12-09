@@ -57,7 +57,7 @@
       <name>Tycho Configurator</name>
       <provider>Takari, Inc.</provider>
       <p2>
-        <repositoryUrl>${connectorUrl}/m2eclipse-tycho/0.8.1/N/0.8.1.201704211436/</repositoryUrl>
+        <repositoryUrl>${connectorUrl}/m2eclipse-tycho/0.9.0/N/0.9.0.201811261502/</repositoryUrl>
         <iuId>org.sonatype.tycho.m2e.feature.feature.group</iuId>
         <lifecycleMappingIU>
           <iuId>org.sonatype.tycho.m2e</iuId>
