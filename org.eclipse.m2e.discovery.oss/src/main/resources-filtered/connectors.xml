@@ -232,7 +232,7 @@
       </catalogItem>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.scm</categoryId>
-      <m2e-versions>1.4,1.5,1.6</m2e-versions>
+      <m2e-versions>1.6</m2e-versions>
       <description>Maven SCM Handler for EGit</description>
       <groupId>extras</groupId>
       <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit</id>
@@ -241,7 +241,7 @@
       <name>m2e-egit</name>
       <provider>Takari, Inc.</provider>
       <p2>
-        <repositoryUrl>${connectorUrl}/m2eclipse-egit/0.15.1/N/LATEST/</repositoryUrl>
+        <repositoryUrl>https://tesla.github.io/m2eclipse-egit/updates/</repositoryUrl>
         <iuId>org.sonatype.m2e.egit.feature.feature.group</iuId>
       </p2>
       <overview>
