@@ -288,6 +288,8 @@
         <url>https://github.com/tesla/m2eclipse-subclipse</url>
       </overview>
     </catalogItem>
+
+    <!-- https://m2e-code-quality.github.io/m2e-code-quality -->
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=347556 -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
@@ -300,9 +302,9 @@
       <name>m2e-checkstyle</name>
       <provider>Benson Margulies etc @ m2e-code-quality.github.com</provider>
       <p2>
-        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality/site/latest/</repositoryUrl>
+        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality-p2-site/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.checkstyle.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201307281919</iuVersion>
+        <iuVersion>1.1.0.201811102243-r</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.checkstyle</iuId>
         </lifecycleMappingIU>
@@ -316,7 +318,7 @@
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
       <m2e-versions>1.4,1.5,1.6</m2e-versions>
-      <description>applies configuration from the maven-pmd-plugin to the Eclipse PMD plugin. Disables execution of the maven-pmd-plugin within Eclipse in favor of the Eclipse plugin.</description>
+      <description>Applies configuration from the maven-pmd-plugin to the Eclipse PMD plugin. Disables execution of the maven-pmd-plugin within Eclipse in favor of the Eclipse plugin.</description>
       <groupId>lifecycles</groupId>
       <id>org.eclipse.m2e.discovery.lifecycles.m2epmd</id>
       <kind>lifecycles</kind>
@@ -324,9 +326,9 @@
       <name>m2e-pmd</name>
       <provider>Benson Margulies etc @ m2e-code-quality.github.com</provider>
       <p2>
-        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality/site/latest/</repositoryUrl>
+        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality-p2-site/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.pmd.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201307281919</iuVersion>
+        <iuVersion>1.1.0.201811102243-r</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.pmd</iuId>
         </lifecycleMappingIU>
@@ -348,9 +350,9 @@
       <name>m2e-findbugs</name>
       <provider>Bela Eröss etc @ m2e-code-quality.github.com</provider>
       <p2>
-        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality/site/latest/</repositoryUrl>
+        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality-p2-site/</repositoryUrl>
         <iuId>com.basistech.m2e.code.quality.findbugs.feature.feature.group</iuId>
-        <iuVersion>1.0.0.201307281919</iuVersion>
+        <iuVersion>1.1.0.201811102243-r</iuVersion>
         <lifecycleMappingIU>
           <iuId>com.basistech.m2e.code.quality.findbugs</iuId>
         </lifecycleMappingIU>
@@ -360,6 +362,31 @@
         <url>https://github.com/m2e-code-quality/m2e-code-quality</url>
       </overview>
     </catalogItem>
+
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>1.4,1.5,1.6</m2e-versions>
+      <description>Applies configuration from the spotbugs-maven-plugin to the Eclipse Spotbugs plugin. Disables execution of the spotbugs-maven-plugin within Eclipse in favor of the Eclipse plugin.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecycles.m2espotbugs</id>
+      <kind>lifecycles</kind>
+      <license>ASL</license>
+      <name>m2e-spotbugs</name>
+      <provider>m2e-code-quality.github.io</provider>
+      <p2>
+        <repositoryUrl>https://m2e-code-quality.github.io/m2e-code-quality-p2-site/</repositoryUrl>
+        <iuId>com.basistech.m2e.code.quality.spotbugs.feature.feature.group</iuId>
+        <iuVersion>1.1.0.201811102243-r</iuVersion>
+        <lifecycleMappingIU>
+          <iuId>com.basistech.m2e.code.quality.spotbugs</iuId>
+        </lifecycleMappingIU>
+      </p2>
+      <overview>
+        <summary>m2e support for the spotbugs-maven-plugin.</summary>
+        <url>https://github.com/m2e-code-quality/m2e-code-quality</url>
+      </overview>
+    </catalogItem>
+
     <!-- dependencypath -->
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
