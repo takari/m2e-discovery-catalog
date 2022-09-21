@@ -203,6 +203,26 @@
       </overview>
     </catalogItem>
 
+    <!-- collection of various components for M2E 2.0 -->
+    <catalogItem>
+      <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
+      <m2e-versions>2.0</m2e-versions>
+      <description>M2E Components for various Maven plug-ins.</description>
+      <groupId>lifecycles</groupId>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2e-components</id>
+      <kind>lifecycles</kind>
+      <license>EPL</license>
+      <name>m2e-components</name>
+      <provider>Community maintained</provider>
+      <p2>
+        <repositoryUrl>https://eclipseguru.github.io/m2eclipse-components/</repositoryUrl>
+        <iuId>org.eclipseguru.m2e.extras.components.feature.feature.group</iuId>
+      </p2>
+      <overview>
+        <summary>m2e-components</summary>
+      </overview>
+    </catalogItem>
+    
     <!-- WTP -->
     <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=353361 -->
     <catalogItem>
